@@ -1,6 +1,7 @@
 import { Layout } from '../components/Layout';
 import Link from 'next/link';
-import Intro from '../components/Intro'
+import Intro from '../sections/Intro';
+import About from '../sections/About';
 const PostLink = props => (
   <li>
     <Link href={ `/post?title=${props.title}` }>
@@ -12,6 +13,7 @@ const PostLink = props => (
 const Index = () => (
   <Layout>
     <Intro />
+    <About />
   </Layout>
 );
 

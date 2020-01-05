@@ -13,7 +13,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/hello-nextjs/components/Header.js";
+var _jsxFileName = "/mnt/d/projects/nextjs/panhara_next/components/Header.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -154,123 +154,6 @@ var Header = function Header() {
 
 /***/ }),
 
-/***/ "./components/Intro.js":
-/*!*****************************!*\
-  !*** ./components/Intro.js ***!
-  \*****************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/hello-nextjs/components/Intro.js";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-var Intro = function Intro() {
-  return __jsx("div", {
-    className: "intro-bg gradient-01",
-    style: {
-      background: "url('/bg.jpg')"
-    },
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 2
-    },
-    __self: this
-  }, __jsx("div", {
-    id: "scroll-down",
-    className: "intro",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 3
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "intro-content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 4
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "container-fluid",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 5
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "row",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 6
-    },
-    __self: this
-  }, __jsx("div", {
-    className: "col-md-12 text-center",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 7
-    },
-    __self: this
-  }, __jsx("h1", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, " ", __jsx("span", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 8
-    },
-    __self: this
-  }, " Hello i\u2019m "), " Chhouk Tit Panhara "), __jsx("div", {
-    id: "typer",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 9
-    },
-    __self: this
-  }), __jsx("div", {
-    className: "button-large",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 10
-    },
-    __self: this
-  }, __jsx("a", {
-    href: "#",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 11
-    },
-    __self: this
-  }, "Download my CV")))))), __jsx("a", {
-    className: "scroll-down page-scroll",
-    title: "Scroll Down",
-    href: "#about",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }, __jsx("i", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: this
-  }))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Intro);
-
-/***/ }),
-
 /***/ "./components/Layout.js":
 /*!******************************!*\
   !*** ./components/Layout.js ***!
@@ -288,13 +171,16 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_bootstrap_scss__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_styles_bootstrap_scss__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _styles_general_scss__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../styles/general.scss */ "./styles/general.scss");
 /* harmony import */ var _styles_general_scss__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_general_scss__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/header.scss */ "./styles/header.scss");
-/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var _styles_intro_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/intro.scss */ "./styles/intro.scss");
-/* harmony import */ var _styles_intro_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_intro_scss__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/hello-nextjs/components/Layout.js";
+/* harmony import */ var _styles_button_scss__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../styles/button.scss */ "./styles/button.scss");
+/* harmony import */ var _styles_button_scss__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_styles_button_scss__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../styles/header.scss */ "./styles/header.scss");
+/* harmony import */ var _styles_header_scss__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_styles_header_scss__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _styles_intro_scss__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../styles/intro.scss */ "./styles/intro.scss");
+/* harmony import */ var _styles_intro_scss__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_styles_intro_scss__WEBPACK_IMPORTED_MODULE_6__);
+var _jsxFileName = "/mnt/d/projects/nextjs/panhara_next/components/Layout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -304,13 +190,13 @@ var Layout = function Layout(props) {
   return __jsx("div", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 11
     },
     __self: this
   }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 12
     },
     __self: this
   }), props.children);
@@ -4919,10 +4805,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fpanhara%2FDocuments%2Fnextjs%2Fhello-nextjs%2Fpages%2Findex.js!./":
-/*!*************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fpanhara%2FDocuments%2Fnextjs%2Fhello-nextjs%2Fpages%2Findex.js ***!
-  \*************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2Fprojects%2Fnextjs%2Fpanhara_next%2Fpages%2Findex.js!./":
+/*!*****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2Fprojects%2Fnextjs%2Fpanhara_next%2Fpages%2Findex.js ***!
+  \*****************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8935,10 +8821,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var _components_Intro__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Intro */ "./components/Intro.js");
-var _jsxFileName = "/home/panhara/Documents/nextjs/hello-nextjs/pages/index.js";
+/* harmony import */ var _sections_Intro__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sections/Intro */ "./sections/Intro.js");
+/* harmony import */ var _sections_About__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/About */ "./sections/About.js");
+var _jsxFileName = "/mnt/d/projects/nextjs/panhara_next/pages/index.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
 
 
 
@@ -8947,20 +8835,20 @@ var PostLink = function PostLink(props) {
   return __jsx("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 5
+      lineNumber: 6
     },
     __self: this
   }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_2___default.a, {
     href: "/post?title=".concat(props.title),
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 6
+      lineNumber: 7
     },
     __self: this
   }, __jsx("a", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 7
+      lineNumber: 8
     },
     __self: this
   }, props.title)));
@@ -8970,13 +8858,19 @@ var Index = function Index() {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["Layout"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 14
     },
     __self: this
-  }, __jsx(_components_Intro__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  }, __jsx(_sections_Intro__WEBPACK_IMPORTED_MODULE_5__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 15
+    },
+    __self: this
+  }), __jsx(_sections_About__WEBPACK_IMPORTED_MODULE_4__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
     },
     __self: this
   }));
@@ -8986,14 +8880,778 @@ var Index = function Index() {
 
 /***/ }),
 
+/***/ "./sections/About.js":
+/*!***************************!*\
+  !*** ./sections/About.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/mnt/d/projects/nextjs/panhara_next/sections/About.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var data = {
+  name: "Chhouk Tit Panhara",
+  email: "titpanhara@gmail.com",
+  phone: "095477325",
+  dob: "28 April 1992",
+  address: "#57ceo Street 204 Sangkat Tik Laork 3 Kanh Tol Kork",
+  nationality: "Khmer"
+};
+
+var About = function About() {
+  return __jsx("div", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 13
+    },
+    __self: this
+  }, __jsx("section", {
+    id: "about",
+    className: "about white-bg page-section",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "about-image",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
+    },
+    __self: this
+  }, __jsx("img", {
+    className: "img-responsive",
+    src: "/panhara.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 19
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "about-social",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 21
+    },
+    __self: this
+  }, __jsx("ul", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 22
+    },
+    __self: this
+  }, __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-facebook",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23
+    },
+    __self: this
+  }))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-twitter",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 24
+    },
+    __self: this
+  }))), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-dribbble",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
+    },
+    __self: this
+  }), " ")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-vimeo",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 26
+    },
+    __self: this
+  }), " ")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-pinterest-p",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 27
+    },
+    __self: this
+  }), " ")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-behance",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 28
+    },
+    __self: this
+  }), " ")), __jsx("li", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }, __jsx("i", {
+    className: "fa fa-linkedin",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 29
+    },
+    __self: this
+  }), " "))))), __jsx("div", {
+    className: "col-lg-8 col-md-8 col-sm-8",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 33
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "section-title",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 34
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "section-title-name",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 35
+    },
+    __self: this
+  }, __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 36
+    },
+    __self: this
+  }, "Know about me"), __jsx("h2", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    },
+    __self: this
+  }, "About Me")), __jsx("div", {
+    className: "title-name-gray",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("strong", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, "About me"))), __jsx("div", {
+    className: "contact-block",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 46
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 48
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-user",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 49
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 51
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 52
+    },
+    __self: this
+  }, "Name:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 53
+    },
+    __self: this
+  }, data.name)))), __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 58
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 59
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 60
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-email",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 61
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    },
+    __self: this
+  }, "Email:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 65
+    },
+    __self: this
+  }, " ", data.email, " ")))), __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 70
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 71
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 72
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 73
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 75
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 76
+    },
+    __self: this
+  }, "Phone:"), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 77
+    },
+    __self: this
+  }, " ", data.phone, " "))))), __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 83
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 84
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 85
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 86
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-calendar",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 87
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 89
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 90
+    },
+    __self: this
+  }, "Date of birth: "), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 91
+    },
+    __self: this
+  }, " ", data.dob, " ")))), __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 95
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 96
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 97
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-direction-alt",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 98
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 100
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 101
+    },
+    __self: this
+  }, "Address: "), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 102
+    },
+    __self: this
+  }, " ", data.address, " ")))), __jsx("div", {
+    className: "col-lg-4 col-md-4 col-sm-4",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 106
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "my-contact clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 107
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "contact-icon",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 108
+    },
+    __self: this
+  }, __jsx("span", {
+    className: "ti-flag-alt-2",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 109
+    },
+    __self: this
+  })), __jsx("div", {
+    className: "contact-info",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 111
+    },
+    __self: this
+  }, __jsx("h4", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 112
+    },
+    __self: this
+  }, "Nationality: "), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 113
+    },
+    __self: this
+  }, " ", data.nationality, " "))))), __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 118
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-lg-12 col-md-12",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 119
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "about-block clearfix",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 120
+    },
+    __self: this
+  }, __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, "I have more than ", __jsx("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 121
+    },
+    __self: this
+  }, "5 years of experience"), " in the field of Computer Science/Information Technology. Specialized in HTML, CSS, JavaScript, Ruby, ", __jsx("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 122
+    },
+    __self: this
+  }, "Ruby On Rails"), ", Nodejs, NextJs, ReactJS. Professional in building Point Of Sale, Human Resource Management System,", __jsx("b", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 123
+    },
+    __self: this
+  }, " Web Development,"), " etc."), __jsx("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 124
+    },
+    __self: this
+  }, "Panhara.work as a Freelance Developer and a Designer"), __jsx("img", {
+    className: "pull-right",
+    src: "images/signature.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 125
+    },
+    __self: this
+  }))))))))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./sections/Intro.js":
+/*!***************************!*\
+  !*** ./sections/Intro.js ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/d/projects/nextjs/panhara_next/sections/Intro.js";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+var Intro = function Intro() {
+  return __jsx("div", {
+    className: "intro-bg gradient-01",
+    style: {
+      background: "url('/bg.jpg')"
+    },
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 2
+    },
+    __self: this
+  }, __jsx("div", {
+    id: "scroll-down",
+    className: "intro",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 3
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "intro-content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 4
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 5
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-md-12 text-center",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7
+    },
+    __self: this
+  }, __jsx("h1", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, " ", __jsx("span", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8
+    },
+    __self: this
+  }, " Hello i\u2019m "), " Chhouk Tit Panhara "), __jsx("div", {
+    id: "typer",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 9
+    },
+    __self: this
+  }), __jsx("div", {
+    className: "button-large",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10
+    },
+    __self: this
+  }, __jsx("a", {
+    href: "#",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11
+    },
+    __self: this
+  }, "Download my CV")))))), __jsx("a", {
+    className: "scroll-down page-scroll",
+    title: "Scroll Down",
+    href: "#about",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }, __jsx("i", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 17
+    },
+    __self: this
+  }))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Intro);
+
+/***/ }),
+
 /***/ 0:
-/*!*****************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fpanhara%2FDocuments%2Fnextjs%2Fhello-nextjs%2Fpages%2Findex.js ***!
-  \*****************************************************************************************************************************************/
+/*!*********************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fd%2Fprojects%2Fnextjs%2Fpanhara_next%2Fpages%2Findex.js ***!
+  \*********************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fhome%2Fpanhara%2FDocuments%2Fnextjs%2Fhello-nextjs%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fhome%2Fpanhara%2FDocuments%2Fnextjs%2Fhello-nextjs%2Fpages%2Findex.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fd%2Fprojects%2Fnextjs%2Fpanhara_next%2Fpages%2Findex.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2Fprojects%2Fnextjs%2Fpanhara_next%2Fpages%2Findex.js!./");
 
 
 /***/ }),
