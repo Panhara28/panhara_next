@@ -1,19 +1,18 @@
 import { Layout } from '../components/Layout';
-import Link from 'next/link';
 import Intro from '../sections/Intro';
 import About from '../sections/About';
-const PostLink = props => (
-  <li>
-    <Link href={ `/post?title=${props.title}` }>
-      <a>{ props.title }</a>
-    </Link>
-  </li>
-)
-
+import Service from '../sections/Service';
+import Resume from '../sections/Resume';
+import Skill from '../sections/Skill';
+import Blog from '../sections/Blog';
 const Index = () => (
   <Layout>
     <Intro />
     <About />
+    <Service />
+    <Resume />
+    <Skill />
+    <Blog />
   </Layout>
 );
 

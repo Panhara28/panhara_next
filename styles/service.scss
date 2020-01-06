@@ -1,0 +1,12 @@
+/*************************
+          service
+*************************/
+.service-block { position: relative; overflow: hidden; margin-right: 30px; }
+.service-block span { font-size: 50px; color: #a1aab6; display: block; margin-bottom: 30px; }
+.service-block h2 { text-transform: capitalize; font-weight: 500; margin-bottom: 30px }
+.service-block p { margin-bottom: 60px; }
+.service-block .contact-button { height: 5px; position: absolute; bottom: 0; left: 0px; right: 0px; background: #07cb79; transition: all 0.3s ease-in-out;   -webkit-transition: all 0.3s ease-in-out; -o-transition: all 0.3s ease-in-out; -moz-transition: all 0.3s ease-in-out; -ms-transition: all 0.3s ease-in-out; }
+.service-block .contact-button:hover { background: #2f3742  ; }
+.service-block .contact-button a span { font-size: 16px; display: inline-block; margin-bottom: 0px; color: #fff; line-height: 100px; padding: 0px 20px; transition: all 0.9s ease-in-out;   -webkit-transition: all 0.9s ease-in-out; -o-transition: all 0.9s ease-in-out; -moz-transition: all 0.9s ease-in-out; -ms-transition: all 0.9s ease-in-out; }
+.service-block:hover .contact-button { height: 40px; }
+.service-block:hover .contact-button a span { line-height: 40px; }
