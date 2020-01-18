@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -355,12 +355,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
-/* harmony import */ var _sections_Intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sections/Intro */ "./sections/Intro.js");
-/* harmony import */ var _sections_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sections/About */ "./sections/About.js");
-/* harmony import */ var _sections_Service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/Service */ "./sections/Service.js");
-/* harmony import */ var _sections_Resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sections/Resume */ "./sections/Resume.js");
-/* harmony import */ var _sections_Skill__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sections/Skill */ "./sections/Skill.js");
-/* harmony import */ var _sections_Blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sections/Blog */ "./sections/Blog.js");
+/* harmony import */ var _sections_Intro__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sections/Intro */ "./sections/Intro.tsx");
+/* harmony import */ var _sections_About__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sections/About */ "./sections/About.tsx");
+/* harmony import */ var _sections_Service__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/Service */ "./sections/Service.tsx");
+/* harmony import */ var _sections_Resume__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sections/Resume */ "./sections/Resume.tsx");
+/* harmony import */ var _sections_Skill__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sections/Skill */ "./sections/Skill.tsx");
+/* harmony import */ var _sections_Blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sections/Blog */ "./sections/Blog.tsx");
 var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -420,10 +420,10 @@ const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["Layou
 
 /***/ }),
 
-/***/ "./sections/About.js":
-/*!***************************!*\
-  !*** ./sections/About.js ***!
-  \***************************/
+/***/ "./sections/About.tsx":
+/*!****************************!*\
+  !*** ./sections/About.tsx ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -433,7 +433,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/About.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/About.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1065,10 +1065,10 @@ const About = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Blog.js":
-/*!**************************!*\
-  !*** ./sections/Blog.js ***!
-  \**************************/
+/***/ "./sections/Blog.tsx":
+/*!***************************!*\
+  !*** ./sections/Blog.tsx ***!
+  \***************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1076,7 +1076,7 @@ const About = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Blog.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Blog.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1404,10 +1404,10 @@ const Blog = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Intro.js":
-/*!***************************!*\
-  !*** ./sections/Intro.js ***!
-  \***************************/
+/***/ "./sections/Intro.tsx":
+/*!****************************!*\
+  !*** ./sections/Intro.tsx ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1415,7 +1415,7 @@ const Blog = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Intro.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Intro.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1519,10 +1519,10 @@ const Intro = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Resume.js":
-/*!****************************!*\
-  !*** ./sections/Resume.js ***!
-  \****************************/
+/***/ "./sections/Resume.tsx":
+/*!*****************************!*\
+  !*** ./sections/Resume.tsx ***!
+  \*****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -1530,7 +1530,7 @@ const Intro = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Resume.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Resume.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2054,10 +2054,10 @@ const Resume = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Service.js":
-/*!*****************************!*\
-  !*** ./sections/Service.js ***!
-  \*****************************/
+/***/ "./sections/Service.tsx":
+/*!******************************!*\
+  !*** ./sections/Service.tsx ***!
+  \******************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2065,7 +2065,7 @@ const Resume = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Service.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Service.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2404,10 +2404,10 @@ const Service = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Skill.js":
-/*!***************************!*\
-  !*** ./sections/Skill.js ***!
-  \***************************/
+/***/ "./sections/Skill.tsx":
+/*!****************************!*\
+  !*** ./sections/Skill.tsx ***!
+  \****************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -2415,7 +2415,7 @@ const Service = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Skill.js";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Skill.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2803,7 +2803,7 @@ const Skill = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
