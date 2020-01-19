@@ -15,8 +15,9 @@ const Header = () => (
         </div>
         <div className="collapse navbar-collapse navbar-ex1-collapse">
           <ul id="navbar" className="nav navbar-nav navbar-right">
-            <li className="active"><a href="#home" className="page-scroll">Home</a></li>
+            <li className="active"><Link href="/"><a className="page-scroll">Home</a></Link></li>
             <li><a href="#contact" className="page-scroll">contact</a></li>
+            <li><Link href="/about"><a className="page-scroll">About</a></Link></li>
           </ul>
         </div>
       </nav>

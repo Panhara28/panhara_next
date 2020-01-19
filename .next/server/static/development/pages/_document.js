@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/pages/_document.tsx";
+var _jsxFileName = "/Users/korsophaloudam/Project/next/panhara_next/pages/_document.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -1496,19 +1496,19 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
     }), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 14
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 15
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 16
       },
       __self: this
     }), __jsx("script", {
@@ -1516,7 +1516,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/jquery.min.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 17
       },
       __self: this
     }), __jsx("script", {
@@ -1524,7 +1524,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/modernizr.min.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 18
       },
       __self: this
     }), __jsx("script", {
@@ -1532,7 +1532,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/plugins.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 19
       },
       __self: this
     }), __jsx("script", {
@@ -1540,7 +1540,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/datepicker-script.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 23
       },
       __self: this
     }), __jsx("script", {
@@ -1548,7 +1548,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/style-customizer.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 24
       },
       __self: this
     }), __jsx("script", {
@@ -1556,7 +1556,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/custom.js",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 25
       },
       __self: this
     })));

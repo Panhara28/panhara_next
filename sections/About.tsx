@@ -122,7 +122,7 @@ const About = () => (
                 Specialized in HTML, CSS, JavaScript, Ruby, <b>Ruby On Rails</b>, Nodejs, NextJs, ReactJS. Professional in building Point Of Sale, 
                 Human Resource Management System,<b> Web Development,</b> etc.</p>
                 <p>Panhara.work as a Freelance Developer and a Designer</p>
-                <img className="pull-right" src="images/signature.png" alt="" />
+                {/* <img className="pull-right" src="images/signature.png" alt="" /> */}
               </div>
               </div>
             </div>
