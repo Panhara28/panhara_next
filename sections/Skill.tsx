@@ -15,41 +15,74 @@ const Skill = () => (
             </div>
           </div>
         </div>
-        <div className="row">
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <div className="skill-content">
-              <h2>My Professional Strengths</h2>
-              <span>“The strength of a man's virtue should not be measured by his special exertions, but by his habitual acts”</span>
-              <p>My Professional Strengths Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis velit error culpa unde, esse quam quasi, necessitatibus voluptatem possimus, repellendus. <br /><br />
-                The other virtues practice in succession by Franklin were silence, order, resolution, frugality, industry, sincerity, Justice, moderation, cleanliness, tranquility, chastity and humility. For the summary order he followed a little scheme of employing his time each day. From five to seven each morning he spent in bodily personal attention, saying a short prayer, thinking over the day’s business and resolutions, studying and eating breakfast. From eight till twelve he worked at his trade. From twelve to one he read or overlooked his accounts and dined. From two to five he worked at his trade. The rest of the evening until 10 he spent in music, or diversion of some sort. </p>
+        <div className="language-skills">
+          <div className="row">
+            <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="chart-bar">
+                <div className="chart" data-percent="73">
+                  <span className="percent">73</span>
+                  <canvas height="150" width="150"></canvas></div>
+                <h3>English <br /> Experienced</h3>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="chart-bar">
+                <div className="chart" data-percent="55">
+                  <span className="percent">55</span>
+                  <canvas height="150" width="150"></canvas></div>
+                <h3>French <br />Advanced</h3>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="chart-bar">
+                <div className="chart" data-percent="89">
+                  <span className="percent">89</span>
+                  <canvas height="150" width="150"></canvas></div>
+                <h3>Spanish <br />Basic</h3>
+              </div>
+            </div>
+            <div className="col-lg-3 col-md-3 col-sm-3">
+              <div className="chart-bar">
+                <div className="chart" data-percent="95">
+                  <span className="percent">95</span>
+                  <canvas height="150" width="150"></canvas></div>
+                <h3>German <br />Basic</h3>
+              </div>
             </div>
           </div>
-          <div className="col-lg-6 col-md-6 col-sm-6">
-            <div className="skill">
-              <ul>
-                <li>Web &amp; Graphic Design
-                 <div className="bar_container">
-                    <span className="bar" style={{ backgroundColor: "rgb(7, 203, 121)", width: "70%" }}>
-                      <span className="pct" style={{ color: "rgb(7, 203, 121)", opacity: 1 }}>70%</span>
-                    </span>
-                  </div>
-                </li>
-              </ul>
-              <div className="skill-chart">
-                <div className="skill-chart-expand clearfix">
-                  <div className="expand expand-left">
-                    <p>Newbie</p>
-                  </div>
-                  <div className="expand expand-left">
-                    <p>Decent</p>
-                  </div>
-                  <div className="expand expand-right">
-                    <p>Pretty Good</p>
-                  </div>
-                  <div className="expand expand-right">
-                    <p>Master</p>
-                  </div>
-                </div>
+          <div className="knowledge">
+            <div className="row">
+              <div className="col-lg-12 col-md-12">
+                <h2>Knowledge</h2>
+                <p>Auis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor
+                  in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Commodo consequat. Duis
+                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. </p>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <ul>
+                  <li><span className="ti-hand-point-right"></span> Web design and development</li>
+                  <li><span className="ti-hand-point-right"></span> Multimedia design</li>
+                  <li><span className="ti-hand-point-right"></span> Digital media development</li>
+                  <li><span className="ti-hand-point-right"></span> Interactive computing</li>
+                </ul>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <ul>
+                  <li><span className="ti-hand-point-right"></span> Strong creative skills</li>
+                  <li><span className="ti-hand-point-right"></span> The ability to pay attention to detail</li>
+                  <li><span className="ti-hand-point-right"></span> Ability to work to deadlines</li>
+                  <li><span className="ti-hand-point-right"></span> Comfortable with a CMS</li>
+                </ul>
+              </div>
+              <div className="col-lg-4 col-md-4 col-sm-4">
+                <ul>
+                  <li><span className="ti-hand-point-right"></span> Cultivate a design sense</li>
+                  <li><span className="ti-hand-point-right"></span> Right balance of tools </li>
+                  <li><span className="ti-hand-point-right"></span> Approach every new skill</li>
+                  <li><span className="ti-hand-point-right"></span> Good business management</li>
+                </ul>
               </div>
             </div>
           </div>

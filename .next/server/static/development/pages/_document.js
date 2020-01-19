@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/pages/_document.tsx";
+var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/pages/_document.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -1493,51 +1493,107 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
         lineNumber: 12
       },
       __self: this
-    }), __jsx("body", {
+    }, __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/bootstrap.min.css",
+      rel: "stylesheet",
+      type: "text/css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 13
+      },
+      __self: this
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/themify-icons.css",
+      rel: "stylesheet",
+      type: "text/css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 14
+      },
+      __self: this
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/font-awesome.min.css",
+      rel: "stylesheet",
+      type: "text/css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
       },
       __self: this
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/magnific-popup.css",
+      rel: "stylesheet",
+      type: "text/css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
       },
       __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/jquery-ui.css",
+      type: "text/css",
+      rel: "stylesheet",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 17
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/jquery.min.js",
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style.css",
+      rel: "stylesheet",
+      type: "text/css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 18
+      },
+      __self: this
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/responsive.css",
+      rel: "stylesheet",
+      type: "text/css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/modernizr.min.js",
+    }), __jsx("link", {
+      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style-customizer.css",
+      rel: "stylesheet",
+      type: "text/css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 20
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/plugins.js",
+    })), __jsx("body", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
     }), __jsx("script", {
       type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/datepicker-script.js",
+      src: "js/jquery.js",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }), __jsx("script", {
+      type: "text/javascript",
+      src: "js/minizer.js",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
@@ -1545,18 +1601,42 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("script", {
       type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/style-customizer.js",
+      src: "js/plugin.js",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 30
       },
       __self: this
     }), __jsx("script", {
+      src: "js/googleapi.js",
       type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/custom.js",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 32
+      },
+      __self: this
+    }), __jsx("script", {
+      type: "text/javascript",
+      src: "js/mapscript.js",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 33
+      },
+      __self: this
+    }), __jsx("script", {
+      type: "text/javascript",
+      src: "js/customizer.js",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 35
+      },
+      __self: this
+    }), __jsx("script", {
+      type: "text/javascript",
+      src: "js/custom.js",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
       },
       __self: this
     })));

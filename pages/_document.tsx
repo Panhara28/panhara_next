@@ -10,30 +10,35 @@ class MyDocument extends Document {
     return (
       <Html>
         <Head>
-          
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/themify-icons.css" rel="stylesheet" type="text/css" />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/magnific-popup.css" rel="stylesheet" type="text/css" />
+          <link href='http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/jquery-ui.css' type="text/css" rel='stylesheet' />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style.css" rel="stylesheet" type="text/css" />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/responsive.css" rel="stylesheet" type="text/css" />
+          <link href="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style-customizer.css" rel="stylesheet" type="text/css" />
         </Head>
         <body>
           <Main />
           <NextScript />
 
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/jquery.min.js"></script>
+          <script type="text/javascript" src="js/jquery.js"></script>
 
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/modernizr.min.js"></script>
+          <script type="text/javascript" src="js/minizer.js"></script>
 
-          <script type="text/javascript" src='http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/plugins.js'></script>
+          <script type="text/javascript" src='js/plugin.js'></script>
 
-          {/* <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjVoaCW3PAn52C7WPpJ7NBBqU1_TUfnSI" type="text/javascript"></script>
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/map-scripts.js"></script> */}
+          <script src="js/googleapi.js" type="text/javascript"></script>
+          <script type="text/javascript" src="js/mapscript.js"></script>
 
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/datepicker-script.js"></script>
+          <script type="text/javascript" src="js/customizer.js"></script>
 
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/style-customizer.js"></script>
-
-          <script type="text/javascript" src="http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/custom.js"></script>
+          <script type="text/javascript" src="js/custom.js"></script>
         </body>
       </Html>
     )
   }
 }
 
-export default MyDocument
+export default MyDocument;
