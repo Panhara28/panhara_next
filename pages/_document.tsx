@@ -1,5 +1,5 @@
 import Document, { Html, Head, Main, NextScript } from 'next/document'
-import $ from 'jquery';
+
 class MyDocument extends Document {
   static async getInitialProps(ctx) {
     const initialProps = await Document.getInitialProps(ctx)
@@ -29,7 +29,7 @@ class MyDocument extends Document {
         <link rel="stylesheet" href="/css/style.css" />
 
         </Head>
-        <body>
+        <body  data-spy="scroll" data-target=".navbar" data-offset="50">
           <Main />
           <NextScript />
 
