@@ -4861,7 +4861,11 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
+<<<<<<< HEAD
       (0, _sourceMapSupport.rewriteStacktrace)(error, "/home/panhara/Documents/nextjs/panhara_next/.next");
+=======
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/.next");
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
       return error;
     }
   };

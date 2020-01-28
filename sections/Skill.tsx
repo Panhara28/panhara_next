@@ -1,20 +1,13 @@
 const Skill = () => (
-  <div>
-    <section id="skill" className="my-skill white-bg page-section">
+  <div id="skills" className="section">
+    <div className="addo-skills">
       <div className="container-fluid">
         <div className="row">
-          <div className="col-lg-12 col-md-12">
-            <div className="section-title">
-              <div className="section-title-name">
-                <span>I am good at</span>
-                <h2>My Skill</h2>
-              </div>
-              <div className="title-name-gray">
-                <strong>My Skill</strong>
-              </div>
-            </div>
+          <div className="col-md-12"> <span className="heading-meta">Abilities</span>
+            <h2 className="addo-heading animate-box" data-animate-effect="fadeInLeft">My Skills</h2>
           </div>
         </div>
+<<<<<<< HEAD
         <div className="language-skills">
           <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-3">
@@ -84,12 +77,33 @@ const Skill = () => (
                   <li><span className="ti-hand-point-right"></span> Good business management</li>
                 </ul>
               </div>
+=======
+        <div className="row">
+          <div className="col-md-12 animate-box" data-animate-effect="fadeInLeft">
+            <p className="bar-title">Ruby On Rails<span className="percent align-right">90%</span></p>
+            <div className="bar">
+              <div className="bar-fill bar-fill-developer start"></div>
+            </div>
+            <p className="bar-title">Inkscape<span className="percent align-right">80%</span></p>
+            <div className="bar">
+              <div className="bar-fill bar-fill-photoshop start"></div>
+            </div>
+            <p className="bar-title">Web Design<span className="percent align-right">95%</span></p>
+            <div className="bar">
+              <div className="bar-fill bar-fill-webdesign start"></div>
+            </div>
+            <p className="bar-title">ReactJS<span className="percent align-right">70%</span></p>
+            <div className="bar">
+              <div className="bar-fill bar-fill-socialmedia start"></div>
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
             </div>
           </div>
         </div>
       </div>
-    </section>
+    </div>
   </div>
+
+
 )
 
 export default Skill;

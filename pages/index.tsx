@@ -1,18 +1,21 @@
 import { Layout } from '../components/Layout';
-import Intro from '../sections/Intro';
 import About from '../sections/About';
+import Skill from '../sections/Skill';
+import Reference from '../sections/Reference';
 import Service from '../sections/Service';
 import Resume from '../sections/Resume';
-import Skill from '../sections/Skill';
 import Blog from '../sections/Blog';
+import Contact from '../sections/Contact';
+
 const Index = () => (
   <Layout>
-    <Intro />
     <About />
+    <Skill />
+    <Reference />
     <Service />
     <Resume />
-    <Skill />
     <Blog />
+    <Contact />
   </Layout>
 );
 

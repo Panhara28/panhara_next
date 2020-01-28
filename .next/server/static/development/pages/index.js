@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 5);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,16 +104,23 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+<<<<<<< HEAD
 var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/components/Footer.tsx";
+=======
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Footer.tsx";
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Footer = () => __jsx("div", {
+  id: "addo-footer2",
+  className: "section",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 2
   },
   __self: undefined
+<<<<<<< HEAD
 });
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
@@ -139,134 +146,183 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Header = () => __jsx("div", {
+=======
+}, __jsx("div", {
+  className: "addo-narrow-content",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
   },
   __self: undefined
-}, __jsx("header", {
-  className: "header",
-  id: "home",
+}, __jsx("div", {
+  className: "col-md-4 animate-box fadeInLeft animated",
+  "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 5
   },
   __self: undefined
-}, __jsx("nav", {
-  id: "menu",
-  className: "navbar navbar-default",
+}, __jsx("p", {
+  className: "addo-lead",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
-}, __jsx("div", {
-  className: "navbar-header",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, __jsx("button", {
-  type: "button",
-  className: "navbar-toggle",
-  "data-toggle": "collapse",
-  "data-target": ".navbar-ex1-collapse",
+}, "\xA9 2020 Panhara.work. All rights reserved")), __jsx("div", {
+  className: "col-md-4 animate-box fadeInLeft animated",
+  "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 8
   },
   __self: undefined
-}, __jsx("span", {
-  className: "sr-only",
+}, __jsx("h2", {
+  className: "text-center",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 9
   },
   __self: undefined
-}, "Toggle navigation"), __jsx("span", {
-  className: "icon-bar",
+}, "Panhara.work", __jsx("br", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 9
   },
   __self: undefined
 }), __jsx("span", {
-  className: "icon-bar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Chhouk Tit Panhara"))), __jsx("div", {
+  className: "col-md-4 animate-box fadeInLeft animated",
+  "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}), __jsx("span", {
-  className: "icon-bar",
+}, __jsx("ul", {
+  className: "social-network",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
+<<<<<<< HEAD
 })), __jsx("a", {
   className: "navbar-brand",
   href: "index.html",
+=======
+}, __jsx("li", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 14
+    lineNumber: 13
   },
   __self: undefined
+<<<<<<< HEAD
 }, " ", __jsx("img", {
   id: "logo_img",
   src: "/logo.png",
   alt: "",
+=======
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-facebook font-14px black-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}))), __jsx("li", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 14
   },
   __self: undefined
-}), " ")), __jsx("div", {
-  className: "collapse navbar-collapse navbar-ex1-collapse",
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-twitter-alt font-14px black-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-instagram font-14px black-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+<<<<<<< HEAD
+}, "Home")), __jsx("li", {
+  className: "",
+=======
+}))), __jsx("li", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
-}, __jsx("ul", {
-  id: "navbar",
-  className: "nav navbar-nav navbar-right",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx("li", {
-  className: "active",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
 }, __jsx("a", {
-  href: "#home",
-  className: "page-scroll",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}, "Home")), __jsx("li", {
-  className: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}, __jsx("a", {
+<<<<<<< HEAD
   href: "#about",
   className: "page-scroll",
+=======
+  href: "#",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 16
   },
   __self: undefined
+}, __jsx("i", {
+  className: "ti-linkedin font-14px black-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+<<<<<<< HEAD
 }, "About")), __jsx("li", {
   className: "",
   __source: {
@@ -284,11 +340,50 @@ const Header = () => __jsx("div", {
   __self: undefined
 }, "Service")), __jsx("li", {
   className: "",
+=======
+}))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Footer);
+
+/***/ }),
+
+/***/ "./components/Header.tsx":
+/*!*******************************!*\
+  !*** ./components/Header.tsx ***!
+  \*******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Header.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 2
   },
   __self: undefined
+}, __jsx("aside", {
+  id: "addo-aside",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("div", {
+  id: "addo-logo",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+<<<<<<< HEAD
 }, __jsx("a", {
   href: "#resume",
   className: "page-scroll",
@@ -355,26 +450,133 @@ const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
+=======
+}, " ", __jsx("a", {
+  href: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, "Panhara.work", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, "Chhouk Tit Panhara")), " "), __jsx("nav", {
+  id: "addo-main-menu",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("ul", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "About")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#services",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 8
+  },
+  __self: undefined
+}, "Services")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#portfolio",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, "Portfolio")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#news",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, "News")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#contact",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, "Contact")))), __jsx("div", {
+  className: "addo-footer",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, "contact")), __jsx("li", {
   className: "",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 26
+=======
+    lineNumber: 15
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 27
+=======
+    lineNumber: 16
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("a", {
   className: "",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 28
   },
   __self: undefined
@@ -383,12 +585,23 @@ const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 31
+=======
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-facebook font-14px white-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 32
   },
   __self: undefined
@@ -397,6 +610,23 @@ const Header = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
+=======
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-twitter-alt font-14px white-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, "Home"))))))));
@@ -444,6 +674,7 @@ const Layout = props => __jsx("div", {
 }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 19
   },
   __self: undefined
@@ -2613,12 +2844,29 @@ const About = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 44
+=======
+    lineNumber: 18
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-instagram font-14px white-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}))), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("div", {
   className: "col-lg-4 col-md-4 col-sm-4",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 46
   },
   __self: undefined
@@ -3337,6 +3585,516 @@ const Intro = () => __jsx("div", {
 }, __jsx("div", {
   id: "scroll-down",
   className: "intro",
+=======
+    lineNumber: 19
+  },
+  __self: undefined
+}, __jsx("i", {
+  className: "ti-linkedin font-14px white-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
+  },
+  __self: undefined
+})))), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("small", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "\xA9 2020 Panhara.work by ", __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "Chhouk Tit Panhara"))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Header);
+
+/***/ }),
+
+/***/ "./components/Layout.tsx":
+/*!*******************************!*\
+  !*** ./components/Layout.tsx ***!
+  \*******************************/
+/*! exports provided: Layout */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Layout", function() { return Layout; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.tsx");
+/* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.tsx");
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Layout.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+const Layout = props => __jsx("div", {
+  id: "addo-page",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  className: "js-addo-nav-toggle addo-nav-toggle",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, __jsx("i", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+})), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}), __jsx("div", {
+  id: "addo-main",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, props.children, __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+})));
+
+/***/ }),
+
+/***/ "./pages/index.tsx":
+/*!*************************!*\
+  !*** ./pages/index.tsx ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
+/* harmony import */ var _sections_About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sections/About */ "./sections/About.tsx");
+/* harmony import */ var _sections_Skill__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../sections/Skill */ "./sections/Skill.tsx");
+/* harmony import */ var _sections_Reference__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../sections/Reference */ "./sections/Reference.tsx");
+/* harmony import */ var _sections_Service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../sections/Service */ "./sections/Service.tsx");
+/* harmony import */ var _sections_Resume__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sections/Resume */ "./sections/Resume.tsx");
+/* harmony import */ var _sections_Blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sections/Blog */ "./sections/Blog.tsx");
+/* harmony import */ var _sections_Contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../sections/Contact */ "./sections/Contact.tsx");
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
+
+
+
+
+
+
+
+const Index = () => __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["Layout"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx(_sections_About__WEBPACK_IMPORTED_MODULE_2__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), __jsx(_sections_Skill__WEBPACK_IMPORTED_MODULE_3__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}), __jsx(_sections_Reference__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx(_sections_Service__WEBPACK_IMPORTED_MODULE_5__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}), __jsx(_sections_Resume__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}), __jsx(_sections_Blog__WEBPACK_IMPORTED_MODULE_7__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}), __jsx(_sections_Contact__WEBPACK_IMPORTED_MODULE_8__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}));
+
+/* harmony default export */ __webpack_exports__["default"] = (Index);
+
+/***/ }),
+
+/***/ "./sections/About.tsx":
+/*!****************************!*\
+  !*** ./sections/About.tsx ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
+/* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/About.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const data = {
+  name: "Chhouk Tit Panhara",
+  email: "titpanhara@gmail.com",
+  phone: "095477325",
+  dob: "28 April 1992",
+  address: "#57ceo Street 204 Sangkat Tik Laork 3 Kanh Tol Kork",
+  nationality: "Khmer"
+};
+
+const About = () => __jsx("div", {
+  id: "about",
+  className: "section",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-about",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "container-fluid",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-12",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Information"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, "About Me"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-5",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "/panhara.png",
+  className: "img-fluid mb-30 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}), " "), __jsx("div", {
+  className: "col-md-7 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "ABOUT ME"), __jsx("h2", {
+  className: "cd-headline clip",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "I'm Chhouk Tit Panhara & "), __jsx("span", {
+  className: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx("b", {
+  className: "is-visible",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, " Web Developer"), __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, "Freelancer"), __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "Web Designer"))), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, "Hi, My name is Chhouk Tit Panhara. I am a Web Developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration to concept and execution, but I find the most satisfaction in seeing the finished product do everything for you that it was created to do."), __jsx("div", {
+  className: "addo-about-contact-wrap",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 42
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 43
+  },
+  __self: undefined
+}, "Birthday:"), " 28 April 1992"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 44
+  },
+  __self: undefined
+}, "Website:"), " panhara.work"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+}, "Phone:"), " +85595477325")), __jsx("div", {
+  className: "col-md-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
+  },
+  __self: undefined
+}, "Degree:"), " Web Development & Design"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 49
+  },
+  __self: undefined
+}, "Mail:"), " titpanhara@gmail.com"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 50
+  },
+  __self: undefined
+}, "Facebook Page:"), " /codevlog")))), __jsx("ul", {
+  className: "toolbar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 54
+  },
+  __self: undefined
+}, __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, __jsx("button", {
+  className: "btn",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 55
+  },
+  __self: undefined
+}, "HIRE ME")), __jsx("li", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, __jsx("button", {
+  className: "btn",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 56
+  },
+  __self: undefined
+}, "DOWNLOAD CV"))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (About);
+
+/***/ }),
+
+/***/ "./sections/Blog.tsx":
+/*!***************************!*\
+  !*** ./sections/Blog.tsx ***!
+  \***************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Blog.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Blog = () => __jsx("div", {
+  id: "news",
+  className: "section",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-blog",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 3
@@ -3357,25 +4115,41 @@ const Intro = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
+<<<<<<< HEAD
   className: "row",
+=======
+  className: "col-md-12",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 6
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("div", {
   className: "col-md-12 text-center",
+=======
+}, " ", __jsx("span", {
+  className: "heading-meta",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+<<<<<<< HEAD
+}, __jsx("h1", {
+=======
+}, "Read"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 7
   },
   __self: undefined
-}, __jsx("h1", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
+<<<<<<< HEAD
 }, " ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
@@ -3579,11 +4353,224 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 30
+=======
+}, "LATEST NEWS"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-4 col-sm-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "blog-entry animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  className: "blog-img",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "images/blog/blog-05.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "in ", __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "LIFESTYLE"))), __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Responsive Desing")), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim.")))), __jsx("div", {
+  className: "col-md-4 col-sm-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "blog-entry animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  className: "blog-img",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "images/blog/blog-06.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "in ", __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, "TRAVEL"))), __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Bootstrap Framework")), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim.")))), __jsx("div", {
+  className: "col-md-4 col-sm-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "blog-entry animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  className: "blog-img",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "images/blog/blog-02.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, "in ", __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, "Website Solutions Pvt. Ltd"), __jsx("span", {
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 31
   },
   __self: undefined
@@ -3615,39 +4602,105 @@ const Resume = () => __jsx("div", {
   __self: undefined
 }, "Quis nostrud exercitation ullamco laboris nisi ut aliquip exea. commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.  "))))), __jsx("div", {
   className: "resume-block",
+=======
+    lineNumber: 39
+  },
+  __self: undefined
+}, "LIFESTYLE"))), __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 40
+  },
+  __self: undefined
+}, "Animation Effects")), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 41
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim."))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./sections/Contact.tsx":
+/*!******************************!*\
+  !*** ./sections/Contact.tsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Contact.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Contact = () => __jsx("div", {
+  id: "contact",
+  className: "section",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 42
   },
   __self: undefined
 }, __jsx("div", {
+<<<<<<< HEAD
   className: "row",
+=======
+  className: "addo-contact",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 43
   },
   __self: undefined
 }, __jsx("div", {
+<<<<<<< HEAD
   className: "col-lg-4 col-md-4 col-sm-4",
+=======
+  className: "container-fluid",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 44
   },
   __self: undefined
 }, __jsx("div", {
+<<<<<<< HEAD
   className: "resume-icon",
+=======
+  className: "row",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 45
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("span", {
   className: "ti-bookmark-alt",
+=======
+}, __jsx("div", {
+  className: "col-md-12",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 46
   },
   __self: undefined
+<<<<<<< HEAD
 })), __jsx("div", {
   className: "resume-name",
   __source: {
@@ -3778,18 +4831,164 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 80
+=======
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Location"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "Contact Me"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-lg-12 col-md-12",
+  className: "col-md-6 mb-30 animate-box",
+  "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 81
+    lineNumber: 11
   },
   __self: undefined
-}, __jsx("h2", {
+}, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Panhara.work FREELANCER"), __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}), "We make project live.", __jsx("br", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), "and responsive."), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "PHONE: +85595477325"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "EMAIL: titpanhara@gmail.com"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "ADDRESS: #57ceo Street 204 Sangkat Tik Laork 3 Kanh Tol Kork.")), __jsx("div", {
+  className: "col-md-6 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "GET IN TOUCH")), __jsx("form", {
+  method: "post",
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-sm-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "form-group",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("input", {
+  type: "text",
+  className: "form-control",
+  placeholder: "Name",
+  required: true,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}), " ")), __jsx("div", {
+  className: "col-sm-6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "form-group",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("input", {
+  type: "text",
+  className: "form-control",
+  placeholder: "Email",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
+    lineNumber: 81
+=======
+    lineNumber: 29
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}), " ")), __jsx("div", {
+  className: "col-sm-12",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 82
   },
   __self: undefined
@@ -3798,26 +4997,50 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 85
+=======
+    lineNumber: 31
   },
   __self: undefined
 }, __jsx("div", {
-  className: "row",
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 32
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("textarea", {
+  name: "message",
+  id: "message",
+  cols: 30,
+  rows: 5,
+  className: "form-control",
+  placeholder: "Message",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 86
+=======
+    lineNumber: 33
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
-}, __jsx("div", {
-  className: "col-lg-4 col-md-4 col-sm-4",
+}))), __jsx("div", {
+  className: "col-sm-12",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 87
+=======
+    lineNumber: 37
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("div", {
-  className: "resume-icon",
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 88
   },
   __self: undefined
@@ -3826,18 +5049,57 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 89
+=======
+    lineNumber: 38
   },
   __self: undefined
-})), __jsx("div", {
-  className: "resume-name",
+}, __jsx("button", {
+  className: "btn",
+  type: "submit",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 39
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, "Say Hello!")))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
+
+/***/ }),
+
+/***/ "./sections/Reference.tsx":
+/*!********************************!*\
+  !*** ./sections/Reference.tsx ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Reference.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Reference = () => __jsx("div", {
+  id: "references",
+  className: "section",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 91
+=======
+    lineNumber: 2
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
-}, __jsx("h3", {
+}, __jsx("div", {
+  className: "addo-references",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 92
   },
   __self: undefined
@@ -3852,18 +5114,41 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 96
+=======
+    lineNumber: 3
   },
   __self: undefined
 }, __jsx("div", {
-  className: "resume-info",
+  className: "container-fluid",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 97
+    lineNumber: 4
   },
   __self: undefined
-}, __jsx("h3", {
+}, __jsx("div", {
+  className: "row",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 5
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-12",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
+    lineNumber: 97
+=======
+    lineNumber: 6
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 98
   },
   __self: undefined
@@ -3878,26 +5163,56 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 104
+=======
+    lineNumber: 6
   },
   __self: undefined
-}, __jsx("div", {
+}, "My Team"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "Team"))), __jsx("div", {
   className: "row",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 10
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 105
+=======
+    lineNumber: 11
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-lg-4 col-md-4 col-sm-4",
+  className: "team",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 106
+=======
+    lineNumber: 12
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
-}, __jsx("div", {
-  className: "resume-icon",
+}, " ", __jsx("img", {
+  src: "images/references/01.jpg",
+  className: "img-fluid",
+  alt: "",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 107
   },
   __self: undefined
@@ -3906,18 +5221,33 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 108
+=======
+    lineNumber: 12
   },
   __self: undefined
-})), __jsx("div", {
-  className: "resume-name",
+}), __jsx("div", {
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 13
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 110
+=======
+    lineNumber: 14
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("h3", {
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 111
   },
   __self: undefined
@@ -3932,18 +5262,43 @@ const Resume = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 115
+=======
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Jason Lee"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "AMM Company | CEO"))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, __jsx("div", {
-  className: "resume-info",
+  className: "team",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 116
+=======
+    lineNumber: 21
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
-}, __jsx("h3", {
+}, " ", __jsx("img", {
+  src: "images/references/02.jpg",
+  className: "img-fluid",
+  alt: "",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 117
   },
   __self: undefined
@@ -3993,12 +5348,29 @@ const Service = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 4
+=======
+    lineNumber: 21
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
   },
   __self: undefined
 }, __jsx("div", {
-  className: "row",
+  className: "con",
   __source: {
     fileName: _jsxFileName,
+    lineNumber: 23
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 5
   },
   __self: undefined
@@ -4287,12 +5659,313 @@ const Service = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 55
+=======
+    lineNumber: 24
+  },
+  __self: undefined
+}, "Emily Sorey"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "RESOLVE |\xA0General Manager"))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "team",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "images/references/03.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, "Robert Luca"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, "AKB | Software Team Lead")))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Reference);
+
+/***/ }),
+
+/***/ "./sections/Resume.tsx":
+/*!*****************************!*\
+  !*** ./sections/Resume.tsx ***!
+  \*****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Resume.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Resume = () => __jsx("div", {
+  id: "portfolio",
+  className: "section",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 2
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-projects",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 3
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "container-fluid",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-12",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Portfolio"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "Creative Works"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "project",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "images/portfolio/01.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Mockup"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, "Branding Desing")))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "project",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "images/portfolio/02.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 27
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Book"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 28
+  },
+  __self: undefined
+}, "Graphic Design")))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "project",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "images/portfolio/03.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 37
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 38
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   },
   __self: undefined
 }, " ", __jsx("span", {
   className: "pull-left",
   __source: {
     fileName: _jsxFileName,
+<<<<<<< HEAD
     lineNumber: 55
   },
   __self: undefined
@@ -4325,142 +5998,225 @@ var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Skill.t
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 const Skill = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 2
+=======
+    lineNumber: 39
   },
   __self: undefined
+}, "Clock"), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 39
+  },
+  __self: undefined
+}, "Graphic Design")))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 45
+  },
+  __self: undefined
+<<<<<<< HEAD
 }, __jsx("section", {
   id: "skill",
   className: "my-skill white-bg page-section",
+=======
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 3
+    lineNumber: 46
   },
   __self: undefined
 }, __jsx("div", {
-  className: "container-fluid",
+  className: "project",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 47
+  },
+  __self: undefined
+}, " ", __jsx("img", {
+  src: "images/portfolio/04.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 47
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 48
   },
   __self: undefined
 }, __jsx("div", {
-  className: "row",
+  className: "con",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 5
+    lineNumber: 49
   },
   __self: undefined
-}, __jsx("div", {
-  className: "col-lg-12 col-md-12",
+}, __jsx("h3", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 6
+    lineNumber: 50
   },
   __self: undefined
-}, __jsx("div", {
-  className: "section-title",
+}, "Logo"), " ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 7
+    lineNumber: 50
   },
   __self: undefined
-}, __jsx("div", {
-  className: "section-title-name",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("span", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
+<<<<<<< HEAD
 }, "I am good at"), __jsx("h2", {
+=======
+}, "Branding Design")))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 56
   },
   __self: undefined
+<<<<<<< HEAD
 }, "My Skill")), __jsx("div", {
   className: "title-name-gray",
+=======
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 57
   },
   __self: undefined
-}, __jsx("strong", {
+}, __jsx("div", {
+  className: "project",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 58
   },
   __self: undefined
+<<<<<<< HEAD
 }, "My Skill"))))), __jsx("div", {
   className: "language-skills",
+=======
+}, " ", __jsx("img", {
+  src: "images/portfolio/05.jpg",
+  className: "img-fluid",
+  alt: "",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 18
+    lineNumber: 58
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("div", {
   className: "row",
+=======
+}), __jsx("div", {
+  className: "desc",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 19
+    lineNumber: 59
   },
   __self: undefined
 }, __jsx("div", {
+<<<<<<< HEAD
   className: "col-lg-3 col-md-3 col-sm-3",
+=======
+  className: "con",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 20
+    lineNumber: 60
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("div", {
   className: "chart-bar",
+=======
+}, __jsx("h3", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 21
+    lineNumber: 61
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("div", {
   className: "chart",
   "data-percent": "73",
+=======
+}, "Kinfolk"), " ", __jsx("span", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 22
+    lineNumber: 61
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("span", {
   className: "percent",
+=======
+}, "Adobe InDesign")))))), __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 23
+    lineNumber: 67
   },
   __self: undefined
+<<<<<<< HEAD
 }, "73"), __jsx("canvas", {
   height: "150",
   width: "150",
+=======
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 24
+    lineNumber: 68
   },
   __self: undefined
+<<<<<<< HEAD
 })), __jsx("h3", {
+=======
+}, __jsx("div", {
+  className: "project",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 69
   },
   __self: undefined
+<<<<<<< HEAD
 }, "English ", __jsx("br", {
+=======
+}, " ", __jsx("img", {
+  src: "images/portfolio/08.jpg",
+  className: "img-fluid",
+  alt: "",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 25
+    lineNumber: 69
   },
   __self: undefined
+<<<<<<< HEAD
 }), " Experienced"))), __jsx("div", {
   className: "col-lg-3 col-md-3 col-sm-3",
   __source: {
@@ -4470,40 +6226,92 @@ const Skill = () => __jsx("div", {
   __self: undefined
 }, __jsx("div", {
   className: "chart-bar",
+=======
+}), __jsx("div", {
+  className: "desc",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 29
+    lineNumber: 70
   },
   __self: undefined
 }, __jsx("div", {
+  className: "con",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 71
+  },
+  __self: undefined
+<<<<<<< HEAD
+}, __jsx("div", {
   className: "chart",
   "data-percent": "55",
+=======
+}, __jsx("h3", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 30
+    lineNumber: 72
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("span", {
   className: "percent",
+=======
+}, "Eight"), " ", __jsx("span", {
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 31
+    lineNumber: 72
   },
   __self: undefined
+<<<<<<< HEAD
 }, "55"), __jsx("canvas", {
   height: "150",
   width: "150",
+=======
+}, "Adobe Illustration"))))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Resume);
+
+/***/ }),
+
+/***/ "./sections/Service.tsx":
+/*!******************************!*\
+  !*** ./sections/Service.tsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Service.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Service = () => __jsx("div", {
+  id: "services",
+  className: "section",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 32
+    lineNumber: 2
   },
   __self: undefined
+<<<<<<< HEAD
 })), __jsx("h3", {
+=======
+}, __jsx("div", {
+  className: "addo-services",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 33
+    lineNumber: 3
   },
   __self: undefined
+<<<<<<< HEAD
 }, "French ", __jsx("br", {
   __source: {
     fileName: _jsxFileName,
@@ -4597,12 +6405,230 @@ const Skill = () => __jsx("div", {
   },
   __self: undefined
 })), __jsx("h3", {
+=======
+}, __jsx("div", {
+  className: "container-fluid",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 4
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 5
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-12",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "What I Do"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "Services"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-feature animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "et-laptop font-35px",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}), " "), __jsx("div", {
+  className: "addo-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, "Web Desing"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit thelery ullamcorper, risus nisl cursus purus the viverra ante nulla vel justo.")))), __jsx("div", {
+  className: "col-md-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-feature animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "et-lightbulb font-35px",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 23
+  },
+  __self: undefined
+}), " "), __jsx("div", {
+  className: "addo-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, "Web Development"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit thelery ullamcorper, risus nisl cursus purus the viverra ante nulla vel justo.")))), __jsx("div", {
+  className: "col-md-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-feature animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 32
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "addo-icon",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  className: "et-mobile font-35px",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}), " "), __jsx("div", {
+  className: "addo-text",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 34
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 35
+  },
+  __self: undefined
+}, "Fully Responsive"), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 36
+  },
+  __self: undefined
+}, "Fusce suscipit, ante a hendrerit thelery ullamcorper, risus nisl cursus purus the viverra ante nulla vel justo."))))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Service);
+
+/***/ }),
+
+/***/ "./sections/Skill.tsx":
+/*!****************************!*\
+  !*** ./sections/Skill.tsx ***!
+  \****************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Skill.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Skill = () => __jsx("div", {
+  id: "skills",
+  className: "section",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 49
   },
   __self: undefined
+<<<<<<< HEAD
 }, "German ", __jsx("br", {
+=======
+}, __jsx("div", {
+  className: "addo-skills",
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
   __source: {
     fileName: _jsxFileName,
     lineNumber: 49
@@ -4623,12 +6649,13 @@ const Skill = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-lg-12 col-md-12",
+  className: "col-md-12",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 55
   },
   __self: undefined
+<<<<<<< HEAD
 }, __jsx("h2", {
   __source: {
     fileName: _jsxFileName,
@@ -4844,6 +6871,151 @@ const Skill = () => __jsx("div", {
   },
   __self: undefined
 }), " Good business management")))))))));
+=======
+}, " ", __jsx("span", {
+  className: "heading-meta",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 6
+  },
+  __self: undefined
+}, "Abilities"), __jsx("h2", {
+  className: "addo-heading animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}, "My Skills"))), __jsx("div", {
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-md-12 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("p", {
+  className: "bar-title",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Ruby On Rails", __jsx("span", {
+  className: "percent align-right",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "90%")), __jsx("div", {
+  className: "bar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "bar-fill bar-fill-developer start",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+})), __jsx("p", {
+  className: "bar-title",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "Inkscape", __jsx("span", {
+  className: "percent align-right",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "80%")), __jsx("div", {
+  className: "bar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "bar-fill bar-fill-photoshop start",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+})), __jsx("p", {
+  className: "bar-title",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "Web Design", __jsx("span", {
+  className: "percent align-right",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, "95%")), __jsx("div", {
+  className: "bar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "bar-fill bar-fill-webdesign start",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+})), __jsx("p", {
+  className: "bar-title",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "ReactJS", __jsx("span", {
+  className: "percent align-right",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, "70%")), __jsx("div", {
+  className: "bar",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 25
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "bar-fill bar-fill-socialmedia start",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 26
+  },
+  __self: undefined
+})))))));
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
 
 /* harmony default export */ __webpack_exports__["default"] = (Skill);
 
@@ -4860,6 +7032,7 @@ const Skill = () => __jsx("div", {
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
@@ -4986,6 +7159,12 @@ module.exports = require("core-js/library/fn/weak-map");
 /*!*****************************!*\
   !*** external "prop-types" ***!
   \*****************************/
+=======
+/***/ 5:
+/*!*******************************!*\
+  !*** multi ./pages/index.tsx ***!
+  \*******************************/
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
 /*! no static exports found */
 /***/ (function(module, exports) {
 
@@ -4993,12 +7172,16 @@ module.exports = require("prop-types");
 
 /***/ }),
 
+<<<<<<< HEAD
 /***/ "prop-types-exact":
 /*!***********************************!*\
   !*** external "prop-types-exact" ***!
   \***********************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
+=======
+module.exports = __webpack_require__(/*! /mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx */"./pages/index.tsx");
+>>>>>>> 0abd7338268c9a5fb066fb42bf7f4cfe9082f405
 
 module.exports = require("prop-types-exact");
 
