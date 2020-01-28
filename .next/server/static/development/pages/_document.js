@@ -1516,18 +1516,18 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
         lineNumber: 16
       },
       __self: this
-    }), __jsx("link", {
-      rel: "icon",
-      type: "image/png",
-      href: "images/favicon.png",
+    }), __jsx("meta", {
+      name: "description",
+      content: "Hello! My name is Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 17
       },
       __self: this
     }), __jsx("link", {
-      rel: "stylesheet",
-      href: "/css/animate.css",
+      rel: "icon",
+      type: "image/png",
+      href: "images/favicon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
@@ -1535,7 +1535,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/css/et-lineicons.css",
+      href: "/css/animate.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
@@ -1543,7 +1543,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/css/themify-icons.css",
+      href: "/css/et-lineicons.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
@@ -1551,7 +1551,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/css/bootstrap.css",
+      href: "/css/themify-icons.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
@@ -1559,7 +1559,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/css/flexslider.css",
+      href: "/css/bootstrap.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
@@ -1567,28 +1567,36 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("link", {
       rel: "stylesheet",
-      href: "/css/style.css",
+      href: "/css/flexslider.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    })), __jsx("body", {
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/style.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 24
       },
       __self: this
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
+    })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 27
       },
       __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
+      },
+      __self: this
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
       },
       __self: this
     })));
