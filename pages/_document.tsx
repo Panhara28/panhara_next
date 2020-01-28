@@ -14,6 +14,7 @@ class MyDocument extends Document {
         <meta charSet="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="description" content="Hello! My name is Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.">
         <link rel="icon" type="image/png" href="images/favicon.png" />
         <link rel="stylesheet" href="/css/animate.css" />
         <link rel="stylesheet" href="/css/et-lineicons.css" />
