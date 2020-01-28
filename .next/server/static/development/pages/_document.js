@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/Users/korsophaloudam/Project/next/panhara_next/pages/_document.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/_document.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
@@ -1484,79 +1484,111 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Html"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Head"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 13
       },
       __self: this
-    }), __jsx("body", {
+    }, __jsx("meta", {
+      charSet: "utf-8",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
       },
       __self: this
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
+    }), __jsx("meta", {
+      "http-equiv": "X-UA-Compatible",
+      content: "IE=edge",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
       },
       __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+    }), __jsx("meta", {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/jquery.min.js",
+    }), __jsx("link", {
+      rel: "icon",
+      type: "image/png",
+      href: "images/favicon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 17
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/modernizr.min.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/animate.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/plugins.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/et-lineicons.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/datepicker-script.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/themify-icons.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 20
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/bootstrap.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/flexslider.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/style.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/style-customizer.js",
+    })), __jsx("body", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 26
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/js/custom.js",
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 27
+      },
+      __self: this
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
       },
       __self: this
     })));

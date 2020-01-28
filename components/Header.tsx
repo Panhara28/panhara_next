@@ -1,27 +1,26 @@
-import Link from 'next/link';
-
 const Header = () => (
   <div>
-    <header className="header" id="home">
-      <nav id="menu" className="navbar navbar-default">
-        <div className="navbar-header">
-          <button type="button" className="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-            <span className="sr-only">Toggle navigation</span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-            <span className="icon-bar"></span>
-          </button>
-          <a className="navbar-brand" href="/"> <img id="logo_img" src="logo.png" alt="" /> </a>
-        </div>
-        <div className="collapse navbar-collapse navbar-ex1-collapse">
-          <ul id="navbar" className="nav navbar-nav navbar-right">
-            <li className="active"><Link href="/"><a className="page-scroll">Home</a></Link></li>
-            <li><a href="#contact" className="page-scroll">contact</a></li>
-            <li><Link href="/about"><a className="page-scroll">About</a></Link></li>
-          </ul>
-        </div>
+    <aside id="addo-aside">
+      <div id="addo-logo"> <a href="">Panhara.work<span>Chhouk Tit Panhara</span></a> </div>
+      <nav id="addo-main-menu">
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#news">News</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </nav>
-    </header>
+      <div className="addo-footer">
+        <ul>
+          <li><a href="#"><i className="ti-facebook font-14px white-icon"></i></a></li>
+          <li><a href="#"><i className="ti-twitter-alt font-14px white-icon"></i></a></li>
+          <li><a href="#"><i className="ti-instagram font-14px white-icon"></i></a></li>
+          <li><a href="#"><i className="ti-linkedin font-14px white-icon"></i></a></li>
+        </ul>
+        <p><small>&copy; 2020 Panhara.work by <a href="#">Chhouk Tit Panhara</a></small></p>
+      </div>
+    </aside>
   </div>
 );
 
