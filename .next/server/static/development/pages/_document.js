@@ -1484,159 +1484,162 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Html"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 11
+        lineNumber: 12
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Head"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
-      },
-      __self: this
-    }, __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/bootstrap.min.css",
-      rel: "stylesheet",
-      type: "text/css",
-      __source: {
-        fileName: _jsxFileName,
         lineNumber: 13
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/themify-icons.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }, __jsx("meta", {
+      charSet: "utf-8",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 14
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/font-awesome.min.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }), __jsx("meta", {
+      "http-equiv": "X-UA-Compatible",
+      content: "IE=edge",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 15
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/magnific-popup.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }), __jsx("meta", {
+      name: "viewport",
+      content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 16
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/jquery-ui.css",
-      type: "text/css",
-      rel: "stylesheet",
+    }), __jsx("meta", {
+      name: "description",
+      content: "Hello! My name is Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 17
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }), __jsx("meta", {
+      property: "og:url",
+      content: "http://panhara.work/",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 18
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/responsive.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }), __jsx("meta", {
+      property: "og:type",
+      content: "portfolio",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 19
       },
       __self: this
-    }), __jsx("link", {
-      href: "http://themes.potenzaglobalsolutions.com/html/sam-martin/it/layout-2/css/style-customizer.css",
-      rel: "stylesheet",
-      type: "text/css",
+    }), __jsx("meta", {
+      property: "og:title",
+      content: "Home Page",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 20
       },
       __self: this
-    })), __jsx("body", {
+    }), __jsx("meta", {
+      property: "og:description",
+      content: "Hello, My name's Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }), __jsx("meta", {
+      property: "og:image",
+      content: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t1.0-9/p720x720/73114475_105338404233994_6001355547842969600_o.jpg?_nc_cat=109&_nc_eui2=AeF48_B9hAUuk9naPp_bNRVcrdMnv_hFFtsTQxqyGVL_CkxQIBvdCCobRUAT8CKHJm2hU6DWYMv_Gz-ft5vlFF5fFL8b-7G9mO8fgjwYo6rkmQ&_nc_ohc=LNQGcpdwYJcAX9_GUoQ&_nc_ht=scontent.fpnh10-1.fna&_nc_tp=6&oh=9eba2c45911c28095791635800c3525a&oe=5E986A4E",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 22
       },
       __self: this
-    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
+    }), __jsx("link", {
+      rel: "icon",
+      type: "image/png",
+      href: "images/favicon.png",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 23
       },
       __self: this
-    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/animate.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 24
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/jquery.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/et-lineicons.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/themify-icons.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 26
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/minizer.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/bootstrap.css",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/flexslider.css",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/plugin.js",
+    }), __jsx("link", {
+      rel: "stylesheet",
+      href: "/css/style.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 30
+        lineNumber: 29
       },
       __self: this
-    }), __jsx("script", {
-      src: "js/googleapi.js",
-      type: "text/javascript",
+    })), __jsx("body", {
+      "data-spy": "scroll",
+      "data-target": ".navbar",
+      "data-offset": "50",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 32
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/mapscript.js",
+    }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["Main"], {
       __source: {
         fileName: _jsxFileName,
         lineNumber: 33
       },
       __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/customizer.js",
+    }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_8__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 35
-      },
-      __self: this
-    }), __jsx("script", {
-      type: "text/javascript",
-      src: "js/custom.js",
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 37
+        lineNumber: 34
       },
       __self: this
     })));
