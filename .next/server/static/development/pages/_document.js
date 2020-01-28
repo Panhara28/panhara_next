@@ -1550,7 +1550,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_8___default.a {
       __self: this
     }), __jsx("meta", {
       property: "og:description",
-      content: "Hello, My name is Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
+      content: "Hello, My name's Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
       __source: {
         fileName: _jsxFileName,
         lineNumber: 21
