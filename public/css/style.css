@@ -295,6 +295,11 @@ input[type="checkbox"] {
     #addo-aside {
         width: 30%;
     }
+
+    #addo-aside #addo-logo a {
+        font-size: 16px;
+    }
+
 }
 
 @media screen and (max-width: 768px) {

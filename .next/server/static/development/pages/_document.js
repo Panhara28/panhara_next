@@ -1464,7 +1464,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/pages/_document.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/_document.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 

@@ -9,28 +9,28 @@ const Reference = () => (
         </div>
         <div className="row">
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-            <div className="team"> <img src="images/references/01.jpg" className="img-fluid" alt="" />
+            <div className="team"> <img src="/images/references/001.png" className="img-fluid" alt="" />
               <div className="desc">
                 <div className="con">
-                  <h3>Jason Lee</h3> <span>AMM Company | CEO</span>
+                  <h3>Sokphal Adam</h3> <span>L192 | Full Stack Developer</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-            <div className="team"> <img src="images/references/02.jpg" className="img-fluid" alt="" />
+            <div className="team"> <img src="/images/references/002.png" className="img-fluid" alt="" />
               <div className="desc">
                 <div className="con">
-                  <h3>Emily Sorey</h3> <span>RESOLVE | General Manager</span>
+                  <h3>Menghour Hai</h3> <span>Loyosja | Organizer</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-            <div className="team"> <img src="images/references/03.jpg" className="img-fluid" alt="" />
+            <div className="team"> <img src="images/references/003.png" className="img-fluid" alt="" />
               <div className="desc">
                 <div className="con">
-                  <h3>Robert Luca</h3> <span>AKB | Software Team Lead</span>
+                  <h3>Theara Theng</h3> <span>Loyosja | Founder</span>
                 </div>
               </div>
             </div>

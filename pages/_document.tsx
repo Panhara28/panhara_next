@@ -29,7 +29,7 @@ class MyDocument extends Document {
         <link rel="stylesheet" href="/css/style.css" />
 
         </Head>
-        <body  data-spy="scroll" data-target=".navbar" data-offset="50">
+        <body data-spy="scroll" data-target=".navbar" data-offset="50">
           <Main />
           <NextScript />
 

@@ -19,9 +19,9 @@ const About = () => (
           </div>
         </div>
         <div className="row">
-          <div className="col-md-5"> <img src="/panhara.png" className="img-fluid mb-30 animate-box"
+          <div className="col-md-12 col-lg-5"> <img src="/panhara.png" className="img-fluid mb-30 animate-box"
             data-animate-effect="fadeInLeft" alt="" /> </div>
-          <div className="col-md-7 animate-box" data-animate-effect="fadeInLeft"> <span className="heading-meta">ABOUT
+          <div className="col-md-12 col-lg-7 animate-box" data-animate-effect="fadeInLeft"> <span className="heading-meta">ABOUT
                 ME</span>
             <h2 className="cd-headline clip">
               <span>I'm Chhouk Tit Panhara &amp; </span>

@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/components/Collapse.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Collapse.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
 
@@ -118,11 +118,15 @@ class Collapse extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
       active: false
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "collapse", () => {
-      this.setState({
-        active: !this.state.active
-      });
-      console.log(this.state.active);
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "collapse", async () => {
+      // await this.setState({ active: !this.state.active })
+      // console.log(this.state.active);
+      // if(this.state.active){
+      //   document.body.className = "offcanvas";
+      // }else{
+      //   document.body.className = "";
+      // }
+      this.props.onActive();
     });
   }
 
@@ -130,22 +134,23 @@ class Collapse extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
     return __jsx("div", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 27
       },
       __self: this
     }, __jsx("a", {
       href: "#",
       onClick: this.collapse,
-      className: "js-addo-nav-toggle addo-nav-toggle active",
+      className: `js-addo-nav-toggle addo-nav-toggle ${this.props.active ? "active" : ""}`,
+      id: "addo-nav-close",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 28
       },
       __self: this
     }, __jsx("i", {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 29
       },
       __self: this
     })));
@@ -168,7 +173,7 @@ class Collapse extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/components/Footer.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Footer.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -341,243 +346,291 @@ const Footer = () => __jsx("div", {
 /*!*******************************!*\
   !*** ./components/Header.tsx ***!
   \*******************************/
-/*! exports provided: default */
+/*! exports provided: Header */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/components/Header.tsx";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Header.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
-const Header = () => __jsx("div", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 2
-  },
-  __self: undefined
-}, __jsx("aside", {
-  id: "addo-aside",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 3
-  },
-  __self: undefined
-}, __jsx("div", {
-  id: "addo-logo",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, " ", __jsx("a", {
-  href: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, "Panhara.work", __jsx("span", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, "Chhouk Tit Panhara")), " "), __jsx("nav", {
-  id: "addo-main-menu",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 5
-  },
-  __self: undefined
-}, __jsx("ul", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#about",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, "About")), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#services",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, "Services")), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#portfolio",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, "Portfolio")), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#news",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, "News")), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#contact",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, "Contact")))), __jsx("div", {
-  className: "addo-footer",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 14
-  },
-  __self: undefined
-}, __jsx("ul", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "ti-facebook font-14px white-icon",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}))), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "ti-twitter-alt font-14px white-icon",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 17
-  },
-  __self: undefined
-}))), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "ti-instagram font-14px white-icon",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 18
-  },
-  __self: undefined
-}))), __jsx("li", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-}, __jsx("i", {
-  className: "ti-linkedin font-14px white-icon",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 19
-  },
-  __self: undefined
-})))), __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
-}, __jsx("small", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
-}, "\xA9 2020 Panhara.work by ", __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 21
-  },
-  __self: undefined
-}, "Chhouk Tit Panhara"))))));
+class Header extends react__WEBPACK_IMPORTED_MODULE_1___default.a.Component {
+  constructor(...args) {
+    super(...args);
 
-/* harmony default export */ __webpack_exports__["default"] = (Header);
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "collapse", () => {
+      if (window.innerWidth < 700) {
+        this.props.onActive();
+      }
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 21
+      },
+      __self: this
+    }, __jsx("aside", {
+      id: "addo-aside",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 22
+      },
+      __self: this
+    }, __jsx("div", {
+      id: "addo-logo",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, " ", __jsx("a", {
+      href: "",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, "Panhara.work", __jsx("span", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 23
+      },
+      __self: this
+    }, "Chhouk Tit Panhara")), " "), __jsx("nav", {
+      id: "addo-main-menu",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 24
+      },
+      __self: this
+    }, __jsx("ul", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 25
+      },
+      __self: this
+    }, __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#about",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }, "About")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#skills",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 32
+      },
+      __self: this
+    }, "Skills")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 36
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#references",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 37
+      },
+      __self: this
+    }, "Team")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 41
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#services",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 42
+      },
+      __self: this
+    }, "Services")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 46
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#portfolio",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 47
+      },
+      __self: this
+    }, "Portfolio")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 51
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#news",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 52
+      },
+      __self: this
+    }, "News")), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 56
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#contact",
+      onClick: this.collapse,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 57
+      },
+      __self: this
+    }, "Contact")))), __jsx("div", {
+      className: "addo-footer",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 63
+      },
+      __self: this
+    }, __jsx("ul", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 64
+      },
+      __self: this
+    }, __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }, __jsx("i", {
+      className: "ti-facebook font-14px white-icon",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 65
+      },
+      __self: this
+    }))), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }, __jsx("i", {
+      className: "ti-twitter-alt font-14px white-icon",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 66
+      },
+      __self: this
+    }))), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }, __jsx("i", {
+      className: "ti-instagram font-14px white-icon",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 67
+      },
+      __self: this
+    }))), __jsx("li", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    }, __jsx("a", {
+      href: "#",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    }, __jsx("i", {
+      className: "ti-linkedin font-14px white-icon",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 68
+      },
+      __self: this
+    })))), __jsx("p", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, __jsx("small", {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, "\xA9 2020 Panhara.work by ", __jsx("a", {
+      href: "#",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 70
+      },
+      __self: this
+    }, "Chhouk Tit Panhara"))))));
+  }
+
+}
 
 /***/ }),
 
@@ -591,50 +644,81 @@ const Header = () => __jsx("div", {
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Layout", function() { return Layout; });
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Header */ "./components/Header.tsx");
 /* harmony import */ var _Footer__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Footer */ "./components/Footer.tsx");
-/* harmony import */ var _components_Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../components/Collapse */ "./components/Collapse.tsx");
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/components/Layout.tsx";
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Collapse */ "./components/Collapse.tsx");
 
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Layout.tsx";
+var __jsx = react__WEBPACK_IMPORTED_MODULE_3___default.a.createElement;
 
 
 
-const Layout = props => __jsx("div", {
-  id: "addo-page",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 6
-  },
-  __self: undefined
-}, __jsx(_components_Collapse__WEBPACK_IMPORTED_MODULE_3__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}), __jsx("div", {
-  id: "addo-main",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, props.children, __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-})));
+
+class Layout extends react__WEBPACK_IMPORTED_MODULE_3___default.a.Component {
+  constructor(...args) {
+    super(...args);
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "state", {
+      active: false
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_0__["default"])(this, "onActive", async () => {
+      await this.setState({
+        active: !this.state.active
+      });
+
+      if (this.state.active) {
+        document.body.className = "offcanvas";
+      } else {
+        document.body.className = "";
+      }
+    });
+  }
+
+  render() {
+    return __jsx("div", {
+      id: "addo-page",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 26
+      },
+      __self: this
+    }, __jsx(_Collapse__WEBPACK_IMPORTED_MODULE_4__["default"], {
+      active: this.state.active,
+      onActive: this.onActive,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 27
+      },
+      __self: this
+    }), __jsx(_components_Header__WEBPACK_IMPORTED_MODULE_1__["Header"], {
+      active: this.state.active,
+      onActive: this.onActive,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28
+      },
+      __self: this
+    }), __jsx("div", {
+      id: "addo-main",
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 29
+      },
+      __self: this
+    }, this.props.children, __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31
+      },
+      __self: this
+    })));
+  }
+
+}
 
 /***/ }),
 
@@ -698,7 +782,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _sections_Resume__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ../sections/Resume */ "./sections/Resume.tsx");
 /* harmony import */ var _sections_Blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../sections/Blog */ "./sections/Blog.tsx");
 /* harmony import */ var _sections_Contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../sections/Contact */ "./sections/Contact.tsx");
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/pages/index.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -777,7 +861,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/About.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/About.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -849,7 +933,7 @@ const About = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-5",
+  className: "col-md-12 col-lg-5",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 22
@@ -866,7 +950,7 @@ const About = () => __jsx("div", {
   },
   __self: undefined
 }), " "), __jsx("div", {
-  className: "col-md-7 animate-box",
+  className: "col-md-12 col-lg-7 animate-box",
   "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
@@ -1075,7 +1159,7 @@ const About = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Blog.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Blog.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1385,7 +1469,7 @@ const Blog = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Contact.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Contact.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1637,7 +1721,7 @@ const Contact = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Reference.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Reference.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1715,7 +1799,7 @@ const Reference = () => __jsx("div", {
   },
   __self: undefined
 }, " ", __jsx("img", {
-  src: "images/references/01.jpg",
+  src: "/images/references/001.png",
   className: "img-fluid",
   alt: "",
   __source: {
@@ -1743,13 +1827,13 @@ const Reference = () => __jsx("div", {
     lineNumber: 15
   },
   __self: undefined
-}, "Jason Lee"), " ", __jsx("span", {
+}, "Sokphal Adam"), " ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}, "AMM Company | CEO"))))), __jsx("div", {
+}, "L192 | Full Stack Developer"))))), __jsx("div", {
   className: "col-md-4 animate-box",
   "data-animate-effect": "fadeInLeft",
   __source: {
@@ -1765,7 +1849,7 @@ const Reference = () => __jsx("div", {
   },
   __self: undefined
 }, " ", __jsx("img", {
-  src: "images/references/02.jpg",
+  src: "/images/references/002.png",
   className: "img-fluid",
   alt: "",
   __source: {
@@ -1793,13 +1877,13 @@ const Reference = () => __jsx("div", {
     lineNumber: 24
   },
   __self: undefined
-}, "Emily Sorey"), " ", __jsx("span", {
+}, "Menghour Hai"), " ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
-}, "RESOLVE |\xA0General Manager"))))), __jsx("div", {
+}, "Loyosja | Organizer"))))), __jsx("div", {
   className: "col-md-4 animate-box",
   "data-animate-effect": "fadeInLeft",
   __source: {
@@ -1815,7 +1899,7 @@ const Reference = () => __jsx("div", {
   },
   __self: undefined
 }, " ", __jsx("img", {
-  src: "images/references/03.jpg",
+  src: "images/references/003.png",
   className: "img-fluid",
   alt: "",
   __source: {
@@ -1843,13 +1927,13 @@ const Reference = () => __jsx("div", {
     lineNumber: 33
   },
   __self: undefined
-}, "Robert Luca"), " ", __jsx("span", {
+}, "Theara Theng"), " ", __jsx("span", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 33
   },
   __self: undefined
-}, "AKB | Software Team Lead")))))))));
+}, "Loyosja | Founder")))))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Reference);
 
@@ -1866,7 +1950,7 @@ const Reference = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Resume.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Resume.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2293,7 +2377,7 @@ const Resume = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Service.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Service.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2516,7 +2600,7 @@ const Service = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/home/panhara/Documents/nextjs/panhara_next/sections/Skill.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Skill.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2715,14 +2799,14 @@ const Skill = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /home/panhara/Documents/nextjs/panhara_next/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),
