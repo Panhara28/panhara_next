@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 0);
+/******/ 	return __webpack_require__(__webpack_require__.s = 1);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -1070,38 +1070,26 @@ var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
-
-
 
 class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
-  static async getInitialProps(ctx) {
-    const initialProps = await next_document__WEBPACK_IMPORTED_MODULE_1___default.a.getInitialProps(ctx);
-    return _objectSpread({}, initialProps);
-  }
-
   render() {
     return __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Html"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 12
+        lineNumber: 7
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Head"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 13
+        lineNumber: 8
       },
       __self: this
     }, __jsx("meta", {
       charSet: "utf-8",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 14
+        lineNumber: 9
       },
       __self: this
     }), __jsx("meta", {
@@ -1109,7 +1097,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "IE=edge",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 15
+        lineNumber: 10
       },
       __self: this
     }), __jsx("meta", {
@@ -1117,7 +1105,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "width=device-width, initial-scale=1",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 16
+        lineNumber: 11
       },
       __self: this
     }), __jsx("meta", {
@@ -1125,7 +1113,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "Hello! My name is Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 17
+        lineNumber: 12
       },
       __self: this
     }), __jsx("meta", {
@@ -1133,7 +1121,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "http://panhara.work/",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 18
+        lineNumber: 13
       },
       __self: this
     }), __jsx("meta", {
@@ -1141,7 +1129,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "portfolio",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 19
+        lineNumber: 14
       },
       __self: this
     }), __jsx("meta", {
@@ -1149,7 +1137,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "Home Page",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 20
+        lineNumber: 15
       },
       __self: this
     }), __jsx("meta", {
@@ -1157,7 +1145,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "Hello, My name's Chhouk Tit Panhara. I am a web designer and developer, and I'm very passionate and dedicated to my work. With 4 years experience as a web designer and development, I have acquired the skills and knowledge necessary to make your project a success.",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 21
+        lineNumber: 16
       },
       __self: this
     }), __jsx("meta", {
@@ -1165,7 +1153,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       content: "https://scontent.fpnh10-1.fna.fbcdn.net/v/t1.0-9/p720x720/73114475_105338404233994_6001355547842969600_o.jpg?_nc_cat=109&_nc_eui2=AeF48_B9hAUuk9naPp_bNRVcrdMnv_hFFtsTQxqyGVL_CkxQIBvdCCobRUAT8CKHJm2hU6DWYMv_Gz-ft5vlFF5fFL8b-7G9mO8fgjwYo6rkmQ&_nc_ohc=LNQGcpdwYJcAX9_GUoQ&_nc_ht=scontent.fpnh10-1.fna&_nc_tp=6&oh=9eba2c45911c28095791635800c3525a&oe=5E986A4E",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 22
+        lineNumber: 17
       },
       __self: this
     }), __jsx("link", {
@@ -1174,7 +1162,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "images/favicon.png",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 23
+        lineNumber: 18
       },
       __self: this
     }), __jsx("link", {
@@ -1182,7 +1170,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/animate.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 24
+        lineNumber: 19
       },
       __self: this
     }), __jsx("link", {
@@ -1190,7 +1178,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/et-lineicons.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 25
+        lineNumber: 20
       },
       __self: this
     }), __jsx("link", {
@@ -1198,7 +1186,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/themify-icons.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 26
+        lineNumber: 21
       },
       __self: this
     }), __jsx("link", {
@@ -1206,7 +1194,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/bootstrap.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 27
+        lineNumber: 22
       },
       __self: this
     }), __jsx("link", {
@@ -1214,7 +1202,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/flexslider.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 28
+        lineNumber: 23
       },
       __self: this
     }), __jsx("link", {
@@ -1222,7 +1210,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       href: "/css/style.css",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 29
+        lineNumber: 24
       },
       __self: this
     })), __jsx("body", {
@@ -1231,19 +1219,19 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
       "data-offset": "50",
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 32
+        lineNumber: 27
       },
       __self: this
     }, __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["Main"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 33
+        lineNumber: 28
       },
       __self: this
     }), __jsx(next_document__WEBPACK_IMPORTED_MODULE_1__["NextScript"], {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 34
+        lineNumber: 29
       },
       __self: this
     })));
@@ -1255,7 +1243,7 @@ class MyDocument extends next_document__WEBPACK_IMPORTED_MODULE_1___default.a {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!**********************************************!*\
   !*** multi private-next-pages/_document.tsx ***!
   \**********************************************/

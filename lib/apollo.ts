@@ -1,12 +1,13 @@
 import ApolloClient from 'apollo-client';
 import { InMemoryCache } from 'apollo-cache-inmemory';
-import { HttpLink, createHttpLink } from 'apollo-link-http';
+import { createHttpLink } from 'apollo-link-http';
 import fetch from 'node-fetch';
 import getConfig from 'next/config'
 const { publicRuntimeConfig, } = getConfig();
 
+
 const client = new ApolloClient({
-  link:  createHttpLink({ uri: publicRuntimeConfig.api, fetch }),
+  link: createHttpLink({ uri: publicRuntimeConfig.api, fetch }),
   cache: new InMemoryCache(),
   defaultOptions: {
     watchQuery: {
@@ -15,8 +16,8 @@ const client = new ApolloClient({
     },
     query: {
       fetchPolicy: 'no-cache',
-      errorPolicy: 'all'
-    }
+      errorPolicy: 'all',
+    },
   }
 })
 
