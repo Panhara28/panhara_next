@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Collapse.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Collapse.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -174,7 +174,7 @@ class Collapse extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Footer.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Footer.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -355,7 +355,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Header.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Header.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -651,7 +651,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Collapse */ "./components/Collapse.tsx");
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Layout.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Layout.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -725,6 +725,111 @@ class Layout extends react__WEBPACK_IMPORTED_MODULE_2___default.a.Component {
 
 /***/ }),
 
+/***/ "./functions/createQuery.ts":
+/*!**********************************!*\
+  !*** ./functions/createQuery.ts ***!
+  \**********************************/
+/*! exports provided: createQuery */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "createQuery", function() { return createQuery; });
+/* harmony import */ var _lib_graphql__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/graphql */ "./lib/graphql.ts");
+
+function createQuery() {
+  console.log(_lib_graphql__WEBPACK_IMPORTED_MODULE_0__["graphql"].QUERY_BLOG);
+  return [{
+    query: _lib_graphql__WEBPACK_IMPORTED_MODULE_0__["graphql"].QUERY_PORTFOLIO,
+    variables: {
+      offset: 0,
+      limit: 10
+    }
+  }, {
+    query: _lib_graphql__WEBPACK_IMPORTED_MODULE_0__["graphql"].QUERY_BLOG,
+    variables: {
+      offset: 0,
+      limit: 10
+    }
+  }];
+}
+
+/***/ }),
+
+/***/ "./functions/multipleQuery.ts":
+/*!************************************!*\
+  !*** ./functions/multipleQuery.ts ***!
+  \************************************/
+/*! exports provided: useMultipleQuery, runMultipleQuery */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "useMultipleQuery", function() { return useMultipleQuery; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "runMultipleQuery", function() { return runMultipleQuery; });
+/* harmony import */ var _apollo_react_hooks__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @apollo/react-hooks */ "@apollo/react-hooks");
+/* harmony import */ var _apollo_react_hooks__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _lib_apollo__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../lib/apollo */ "./lib/apollo.ts");
+function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
+
+function useMultipleQuery(queries) {
+  const res = queries.map(x => Object(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_0__["useQuery"])(x.query, {
+    variables: x.variables,
+    fetchPolicy: 'network-only'
+  }));
+  let loading = false;
+
+  for (const r of res) {
+    loading = loading || r.loading;
+  }
+
+  return {
+    loading,
+    data: res.map(x => x.data)
+  };
+}
+async function runMultipleQuery(queries) {
+  const res = [];
+
+  for (const query of queries) {
+    res.push((await _lib_apollo__WEBPACK_IMPORTED_MODULE_1__["default"].query(_objectSpread({}, query, {
+      fetchPolicy: 'network-only'
+    }))));
+  }
+
+  return res.map(x => x.data);
+}
+
+/***/ }),
+
+/***/ "./functions/transform.ts":
+/*!********************************!*\
+  !*** ./functions/transform.ts ***!
+  \********************************/
+/*! exports provided: transform */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "transform", function() { return transform; });
+function transform(data) {
+  const [portfolio, blog] = data;
+  const portfolioes = portfolio.portfolioList;
+  const blogs = blog.blogList;
+  return {
+    portfolioes,
+    blogs
+  };
+}
+
+/***/ }),
+
 /***/ "./lib/apollo.ts":
 /*!***********************!*\
   !*** ./lib/apollo.ts ***!
@@ -773,6 +878,53 @@ const client = new apollo_client__WEBPACK_IMPORTED_MODULE_0___default.a({
 
 /***/ }),
 
+/***/ "./lib/graphql.ts":
+/*!************************!*\
+  !*** ./lib/graphql.ts ***!
+  \************************/
+/*! exports provided: graphql */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "graphql", function() { return graphql; });
+/* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! graphql-tag */ "graphql-tag");
+/* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_0__);
+
+const QUERY_PORTFOLIO = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a`
+  query portfolioList($offset: Int = 0, $limit: Int = 10){
+    portfolioList(offset: $offset, limit: $limit){
+      id
+      title
+      category{
+        id
+        category_name
+      }
+      image
+    }
+  }
+`;
+const QUERY_BLOG = graphql_tag__WEBPACK_IMPORTED_MODULE_0___default.a`
+  query blogList($offset: Int = 0, $limit: Int = 10){
+    blogList(offset: $offset, limit: $limit){
+      id
+      title
+      image
+      description
+      category{
+        id
+        category_name
+      }
+    }
+  }
+`;
+const graphql = {
+  QUERY_PORTFOLIO,
+  QUERY_BLOG
+};
+
+/***/ }),
+
 /***/ "./pages/index.tsx":
 /*!*************************!*\
   !*** ./pages/index.tsx ***!
@@ -786,22 +938,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.tsx");
 /* harmony import */ var _sections_MainSection__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../sections/MainSection */ "./sections/MainSection.tsx");
-/* harmony import */ var _lib_apollo__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../lib/apollo */ "./lib/apollo.ts");
-/* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! graphql-tag */ "graphql-tag");
-/* harmony import */ var graphql_tag__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(graphql_tag__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/config */ "next/config");
-/* harmony import */ var next_config__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_config__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _apollo_react_hooks__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @apollo/react-hooks */ "@apollo/react-hooks");
-/* harmony import */ var _apollo_react_hooks__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_6__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx";
+/* harmony import */ var _functions_createQuery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../functions/createQuery */ "./functions/createQuery.ts");
+/* harmony import */ var _functions_transform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../functions/transform */ "./functions/transform.ts");
+/* harmony import */ var _functions_multipleQuery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../functions/multipleQuery */ "./functions/multipleQuery.ts");
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
-
-function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
-
-function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
 
 function _extends() { _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
 
@@ -811,45 +953,17 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
-const QUERY_PORTFOLIO = graphql_tag__WEBPACK_IMPORTED_MODULE_4___default.a`
-  query portfolioList($offset: Int = 0, $limit: Int = 10){
-    portfolioList(offset: $offset, limit: $limit){
-      id
-      title
-      category{
-        id
-        category_name
-      }
-      image
-    }
-  }
-`;
-const {
-  publicRuntimeConfig
-} = next_config__WEBPACK_IMPORTED_MODULE_5___default()();
-
-function createQuery() {
-  const date = new Date();
-  return [{
-    query: QUERY_PORTFOLIO,
-    variables: {
-      offset: 0,
-      limit: 10
-    }
-  }];
-}
-
 const Home = props => {
   return __jsx(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["Layout"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 56
+      lineNumber: 13
     },
     __self: undefined
   }, __jsx(HomeScreen, _extends({}, props, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 57
+      lineNumber: 14
     },
     __self: undefined
   })));
@@ -861,57 +975,20 @@ function HomeScreen(props) {
   if (false) {} else {
     return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_sections_MainSection__WEBPACK_IMPORTED_MODULE_2__["default"], {
       loading: false,
-      data: transform(props.data),
+      data: Object(_functions_transform__WEBPACK_IMPORTED_MODULE_4__["transform"])(props.data),
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 94
+        lineNumber: 49
       },
       __self: this
     }));
   }
 }
 
-function transform(data) {
-  const [result] = data;
-  const list = result.portfolioList;
-  return {
-    list
-  };
-}
-
-function useMultipleQuery(queries) {
-  const res = queries.map(x => Object(_apollo_react_hooks__WEBPACK_IMPORTED_MODULE_6__["useQuery"])(x.query, {
-    variables: x.variables,
-    fetchPolicy: 'network-only'
-  }));
-  let loading = false;
-
-  for (const r of res) {
-    loading = loading || r.loading;
-  }
-
-  return {
-    loading,
-    data: res.map(x => x.data)
-  };
-}
-
-async function runMultipleQuery(queries) {
-  const res = [];
-
-  for (const query of queries) {
-    res.push((await _lib_apollo__WEBPACK_IMPORTED_MODULE_3__["default"].query(_objectSpread({}, query, {
-      fetchPolicy: 'network-only'
-    }))));
-  }
-
-  return res.map(x => x.data);
-}
-
 Home.getInitialProps = async function () {
   if (true) {
     return {
-      data: await runMultipleQuery(createQuery())
+      data: await Object(_functions_multipleQuery__WEBPACK_IMPORTED_MODULE_5__["runMultipleQuery"])(Object(_functions_createQuery__WEBPACK_IMPORTED_MODULE_3__["createQuery"])())
     };
   }
 
@@ -937,7 +1014,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/About.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/About.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1224,85 +1301,6 @@ const About = () => __jsx("div", {
 
 /***/ }),
 
-/***/ "./sections/Articles/Portfolioes.tsx":
-/*!*******************************************!*\
-  !*** ./sections/Articles/Portfolioes.tsx ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Articles/Portfolioes.tsx";
-
-var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
-
-const Portfolioes = props => __jsx("div", {
-  className: "col-md-4 animate-box",
-  "data-animate-effect": "fadeInLeft",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 7
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "projects-single.html",
-  className: "desc",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 8
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "project",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}, " ", __jsx("img", {
-  src: "images/portfolio/01.jpg",
-  className: "img-fluid",
-  alt: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 9
-  },
-  __self: undefined
-}), __jsx("div", {
-  className: "desc",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, __jsx("div", {
-  className: "con",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 11
-  },
-  __self: undefined
-}, __jsx("h3", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, props.title), " ", __jsx("span", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 12
-  },
-  __self: undefined
-}, "Branding Desing"))))));
-
-/* harmony default export */ __webpack_exports__["default"] = (Portfolioes);
-
-/***/ }),
-
 /***/ "./sections/Blog.tsx":
 /*!***************************!*\
   !*** ./sections/Blog.tsx ***!
@@ -1314,12 +1312,110 @@ const Portfolioes = props => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Blog.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Blog.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
-const Blog = () => __jsx("div", {
-  id: "news",
+const Blog = props => __jsx("div", {
+  className: "col-md-4 col-sm-4",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "blog-entry animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  className: "blog-img",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "images/blog/blog-05.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+})), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, "In ", __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "#",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, " ", props.category_name, " "))), __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "post.html",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+}, " ", props.title, " ")), __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 18
+  },
+  __self: undefined
+}, " ", props.description, " "))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Blog);
+
+/***/ }),
+
+/***/ "./sections/Contact.tsx":
+/*!******************************!*\
+  !*** ./sections/Contact.tsx ***!
+  \******************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Contact.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Contact = () => __jsx("div", {
+  id: "contact",
   className: "section",
   __source: {
     fileName: _jsxFileName,
@@ -1327,7 +1423,7 @@ const Blog = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "addo-blog",
+  className: "addo-contact",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 3
@@ -1361,7 +1457,7 @@ const Blog = () => __jsx("div", {
     lineNumber: 6
   },
   __self: undefined
-}, "Read"), __jsx("h2", {
+}, "Location"), __jsx("h2", {
   className: "addo-heading animate-box",
   "data-animate-effect": "fadeInLeft",
   __source: {
@@ -1369,7 +1465,7 @@ const Blog = () => __jsx("div", {
     lineNumber: 7
   },
   __self: undefined
-}, "LATEST NEWS"))), __jsx("div", {
+}, "Contact Me"))), __jsx("div", {
   className: "row",
   __source: {
     fileName: _jsxFileName,
@@ -1377,239 +1473,181 @@ const Blog = () => __jsx("div", {
   },
   __self: undefined
 }, __jsx("div", {
-  className: "col-md-4 col-sm-4",
+  className: "col-md-6 mb-30 animate-box",
+  "data-animate-effect": "fadeInLeft",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}, __jsx("div", {
-  className: "blog-entry animate-box",
-  "data-animate-effect": "fadeInLeft",
+}, __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 12
   },
   __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  className: "blog-img",
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}, "Panhara.work FREELANCER"), __jsx("br", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 13
   },
   __self: undefined
-}, __jsx("img", {
-  src: "images/blog/blog-05.jpg",
-  className: "img-fluid",
-  alt: "",
+}), "We make project live.", __jsx("br", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 14
   },
   __self: undefined
-})), __jsx("div", {
-  className: "desc",
+}), "and responsive."), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 15
   },
   __self: undefined
-}, " ", __jsx("span", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "in ", __jsx("b", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 15
-  },
-  __self: undefined
-}, "LIFESTYLE"))), __jsx("h3", {
+}, "PHONE: +85595477325"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 16
   },
   __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 16
-  },
-  __self: undefined
-}, "Responsive Desing")), __jsx("p", {
+}, "EMAIL: titpanhara@gmail.com"), __jsx("p", {
   __source: {
     fileName: _jsxFileName,
     lineNumber: 17
   },
   __self: undefined
-}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim.")))), __jsx("div", {
-  className: "col-md-4 col-sm-4",
+}, "ADDRESS: #57ceo Street 204 Sangkat Tik Laork 3 Kanh Tol Kork.")), __jsx("div", {
+  className: "col-md-6 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 20
+  },
+  __self: undefined
+}, __jsx("p", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, __jsx("b", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 21
+  },
+  __self: undefined
+}, "GET IN TOUCH")), __jsx("form", {
+  method: "post",
+  className: "row",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 22
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "col-sm-6",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 23
   },
   __self: undefined
 }, __jsx("div", {
-  className: "blog-entry animate-box",
-  "data-animate-effect": "fadeInLeft",
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 24
   },
   __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  className: "blog-img",
+}, __jsx("input", {
+  type: "text",
+  className: "form-control",
+  placeholder: "Name",
+  required: true,
   __source: {
     fileName: _jsxFileName,
     lineNumber: 25
   },
   __self: undefined
-}, __jsx("img", {
-  src: "images/blog/blog-06.jpg",
-  className: "img-fluid",
-  alt: "",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 25
-  },
-  __self: undefined
-})), __jsx("div", {
-  className: "desc",
+}), " ")), __jsx("div", {
+  className: "col-sm-6",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 27
   },
   __self: undefined
-}, " ", __jsx("span", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "in ", __jsx("b", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 27
-  },
-  __self: undefined
-}, "TRAVEL"))), __jsx("h3", {
+}, __jsx("div", {
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 28
   },
   __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 28
-  },
-  __self: undefined
-}, "Bootstrap Framework")), __jsx("p", {
+}, __jsx("input", {
+  type: "text",
+  className: "form-control",
+  placeholder: "Email",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 29
   },
   __self: undefined
-}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim.")))), __jsx("div", {
-  className: "col-md-4 col-sm-4",
+}), " ")), __jsx("div", {
+  className: "col-sm-12",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 35
+    lineNumber: 31
   },
   __self: undefined
 }, __jsx("div", {
-  className: "blog-entry animate-box",
-  "data-animate-effect": "fadeInLeft",
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 36
+    lineNumber: 32
   },
   __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  className: "blog-img",
+}, __jsx("textarea", {
+  name: "message",
+  id: "message",
+  cols: 30,
+  rows: 5,
+  className: "form-control",
+  placeholder: "Message",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 33
+  },
+  __self: undefined
+}))), __jsx("div", {
+  className: "col-sm-12",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 37
   },
   __self: undefined
-}, __jsx("img", {
-  src: "images/blog/blog-02.jpg",
-  className: "img-fluid",
-  alt: "",
+}, __jsx("div", {
+  className: "form-group",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 37
+    lineNumber: 38
   },
   __self: undefined
-})), __jsx("div", {
-  className: "desc",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  },
-  __self: undefined
-}, " ", __jsx("span", {
+}, __jsx("button", {
+  className: "btn",
+  type: "submit",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 39
   },
   __self: undefined
-}, "in ", __jsx("b", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "#",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 39
-  },
-  __self: undefined
-}, "LIFESTYLE"))), __jsx("h3", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40
-  },
-  __self: undefined
-}, __jsx("a", {
-  href: "post.html",
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 40
-  },
-  __self: undefined
-}, "Animation Effects")), __jsx("p", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 41
-  },
-  __self: undefined
-}, "Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non, bibendum convallis enim."))))))));
+}, "Say Hello!")))))))));
 
-/* harmony default export */ __webpack_exports__["default"] = (Blog);
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ }),
 
@@ -1624,13 +1662,14 @@ const Blog = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var _Articles_Portfolioes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Articles/Portfolioes */ "./sections/Articles/Portfolioes.tsx");
+/* harmony import */ var _Portfolioes__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Portfolioes */ "./sections/Portfolioes.tsx");
 /* harmony import */ var _About__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./About */ "./sections/About.tsx");
 /* harmony import */ var _Skill__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Skill */ "./sections/Skill.tsx");
 /* harmony import */ var _Reference__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./Reference */ "./sections/Reference.tsx");
 /* harmony import */ var _Service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Service */ "./sections/Service.tsx");
 /* harmony import */ var _Blog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Blog */ "./sections/Blog.tsx");
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/MainSection.tsx";
+/* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Contact */ "./sections/Contact.tsx");
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/MainSection.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1643,20 +1682,15 @@ function _extends() { _extends = Object.assign || function (target) { for (var i
 
 
 
+
 function MainSection(props) {
   return __jsx(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, __jsx(_About__WEBPACK_IMPORTED_MODULE_2__["default"], {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: this
-  }), __jsx(_Skill__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 17
     },
     __self: this
-  }), __jsx(_Reference__WEBPACK_IMPORTED_MODULE_4__["default"], {
+  }), __jsx(_Skill__WEBPACK_IMPORTED_MODULE_3__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 18
@@ -1668,47 +1702,53 @@ function MainSection(props) {
       lineNumber: 19
     },
     __self: this
-  }), __jsx("div", {
-    id: "portfolio",
-    className: "section",
+  }), __jsx(_Reference__WEBPACK_IMPORTED_MODULE_4__["default"], {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 20
     },
     __self: this
-  }, __jsx("div", {
-    className: "addo-projects",
+  }), __jsx("div", {
+    id: "portfolio",
+    className: "section",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 21
     },
     __self: this
   }, __jsx("div", {
-    className: "container-fluid",
+    className: "addo-projects",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22
     },
     __self: this
   }, __jsx("div", {
-    className: "row",
+    className: "container-fluid",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 23
     },
     __self: this
   }, __jsx("div", {
-    className: "col-md-12",
+    className: "row",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 24
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-md-12",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 25
     },
     __self: this
   }, " ", __jsx("span", {
     className: "heading-meta",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 24
+      lineNumber: 25
     },
     __self: this
   }, "Portfolio"), __jsx("h2", {
@@ -1716,36 +1756,183 @@ function MainSection(props) {
     "data-animate-effect": "fadeInLeft",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 25
+      lineNumber: 26
     },
     __self: this
   }, "Creative Works"))), __jsx("div", {
     className: "row",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 28
+      lineNumber: 29
     },
     __self: this
-  }, props.data.list.map((x, idx) => {
-    return __jsx(_Articles_Portfolioes__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
+  }, props.data.portfolioes.map((x, idx) => {
+    return __jsx(_Portfolioes__WEBPACK_IMPORTED_MODULE_1__["default"], _extends({
       key: idx
-    }, x, {
+    }, x, x.category, {
       __source: {
         fileName: _jsxFileName,
-        lineNumber: 31
+        lineNumber: 32
       },
       __self: this
     }));
-  }))))), __jsx(_Blog__WEBPACK_IMPORTED_MODULE_6__["default"], {
+  }))))), __jsx("div", {
+    id: "news",
+    className: "section",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 38
+      lineNumber: 39
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "addo-blog",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 40
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "container-fluid",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 41
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 42
+    },
+    __self: this
+  }, __jsx("div", {
+    className: "col-md-12",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, " ", __jsx("span", {
+    className: "heading-meta",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    },
+    __self: this
+  }, "Read"), __jsx("h2", {
+    className: "addo-heading animate-box",
+    "data-animate-effect": "fadeInLeft",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 44
+    },
+    __self: this
+  }, "LATEST NEWS"))), __jsx("div", {
+    className: "row",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 47
+    },
+    __self: this
+  }, props.data.blogs.map((x, idx) => {
+    return __jsx(_Blog__WEBPACK_IMPORTED_MODULE_6__["default"], _extends({
+      key: idx
+    }, x, x.category, {
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 50
+      },
+      __self: this
+    }));
+  }))))), __jsx(_Contact__WEBPACK_IMPORTED_MODULE_7__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 57
     },
     __self: this
   }));
 }
 
 /* harmony default export */ __webpack_exports__["default"] = (MainSection);
+
+/***/ }),
+
+/***/ "./sections/Portfolioes.tsx":
+/*!**********************************!*\
+  !*** ./sections/Portfolioes.tsx ***!
+  \**********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Portfolioes.tsx";
+
+var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+const Portfolioes = props => __jsx("div", {
+  className: "col-md-4 animate-box",
+  "data-animate-effect": "fadeInLeft",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 9
+  },
+  __self: undefined
+}, __jsx("a", {
+  href: "projects-single.html",
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 10
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "project",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 11
+  },
+  __self: undefined
+}, __jsx("img", {
+  src: "images/portfolio/01.jpg",
+  className: "img-fluid",
+  alt: "",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), __jsx("div", {
+  className: "desc",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, __jsx("div", {
+  className: "con",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, __jsx("h3", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, props.title), " ", __jsx("span", {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, props.category_name))))));
+
+/* harmony default export */ __webpack_exports__["default"] = (Portfolioes);
 
 /***/ }),
 
@@ -1760,7 +1947,7 @@ function MainSection(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Reference.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Reference.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1989,7 +2176,7 @@ const Reference = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Service.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Service.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2212,7 +2399,7 @@ const Service = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Skill.tsx";
+var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Skill.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2411,14 +2598,14 @@ const Skill = () => __jsx("div", {
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/index.tsx ***!
   \*******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /mnt/d/reactjs/panhara_next/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),

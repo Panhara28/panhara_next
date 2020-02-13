@@ -4797,7 +4797,7 @@ function connect(options) {
       error.name = err.name;
       error.stack = err.stack; // __NEXT_DIST_DIR is provided by webpack
 
-      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/.next");
+      (0, _sourceMapSupport.rewriteStacktrace)(error, "/mnt/d/reactjs/panhara_next/.next");
       return error;
     }
   };
