@@ -1,5 +1,9 @@
 import Portfolioes from "./Articles/Portfolioes";
 import About from "./About";
+import Skill from "./Skill";
+import Reference from "./Reference";
+import Service from "./Service";
+import Blog from "./Blog";
 interface Props {
   data?: any
   loading: boolean
@@ -10,6 +14,9 @@ function MainSection(props: Props) {
   return (
     <>
       <About />
+      <Skill />
+      <Reference />
+      <Service />
       <div id="portfolio" className="section">
         <div className="addo-projects">
           <div className="container-fluid">
@@ -28,6 +35,7 @@ function MainSection(props: Props) {
           </div>
         </div>
       </div>
+      <Blog />
     </>
   )
 }
