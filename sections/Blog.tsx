@@ -1,4 +1,6 @@
 
+import Link from 'next/link';
+
 interface Props {
   id: number,
   title: string,
@@ -10,12 +12,25 @@ interface Props {
 const Blog = (props: Props) => (
   <div className="col-md-4 col-sm-4">
     <div className="blog-entry animate-box" data-animate-effect="fadeInLeft">
-      <a href="post.html" className="blog-img">
-        <img src="images/blog/blog-05.jpg" className="img-fluid" alt="" />
-      </a>
-      <div className="desc"> <span>In <b><a href="#"> {props.category_name} </a></b></span>
-        <h3><a href="post.html"> {props.title} </a></h3>
-        <p> {props.description} </p>
+      <Link href="#">
+        <a className="blog-img">
+          <img src="images/blog/blog-05.jpg" className="img-fluid" alt="" />
+        </a>
+      </Link>
+      <div className="desc"> 
+        <span>In 
+          <b>
+            <Link href="#">
+              <a> {props.category_name} </a>
+            </Link>
+          </b>
+        </span>
+        <h3>
+          <Link href="#">
+            <a>{props.title}</a>
+          </Link>
+        </h3>
+        <p>{props.description}</p>
       </div>
     </div>
   </div>
