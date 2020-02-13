@@ -1,8 +1,6 @@
 import { graphql } from '../lib/graphql';
 
-export function createQuery() {
-  console.log(graphql.QUERY_BLOG);
-    
+export function createQuery() {    
   return [
     {
       query: graphql.QUERY_PORTFOLIO,

@@ -104,7 +104,7 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Collapse.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/components/Collapse.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -174,7 +174,7 @@ class Collapse extends react__WEBPACK_IMPORTED_MODULE_0___default.a.Component {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Footer.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/components/Footer.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -355,7 +355,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Header", function() { return Header; });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Header.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/components/Header.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -651,7 +651,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _Collapse__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Collapse */ "./components/Collapse.tsx");
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/components/Layout.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/components/Layout.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
@@ -738,7 +738,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _lib_graphql__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../lib/graphql */ "./lib/graphql.ts");
 
 function createQuery() {
-  console.log(_lib_graphql__WEBPACK_IMPORTED_MODULE_0__["graphql"].QUERY_BLOG);
   return [{
     query: _lib_graphql__WEBPACK_IMPORTED_MODULE_0__["graphql"].QUERY_PORTFOLIO,
     variables: {
@@ -941,7 +940,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _functions_createQuery__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../functions/createQuery */ "./functions/createQuery.ts");
 /* harmony import */ var _functions_transform__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../functions/transform */ "./functions/transform.ts");
 /* harmony import */ var _functions_multipleQuery__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ../functions/multipleQuery */ "./functions/multipleQuery.ts");
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/pages/index.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1014,7 +1013,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/About.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/About.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1312,7 +1311,7 @@ const About = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Blog.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Blog.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1410,7 +1409,7 @@ const Blog = props => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Contact.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Contact.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1669,7 +1668,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Service__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./Service */ "./sections/Service.tsx");
 /* harmony import */ var _Blog__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./Blog */ "./sections/Blog.tsx");
 /* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Contact */ "./sections/Contact.tsx");
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/MainSection.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/MainSection.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1868,7 +1867,7 @@ function MainSection(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Portfolioes.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Portfolioes.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -1947,7 +1946,7 @@ const Portfolioes = props => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Reference.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Reference.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2176,7 +2175,7 @@ const Reference = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Service.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Service.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2399,7 +2398,7 @@ const Service = () => __jsx("div", {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/reactjs/panhara_next/sections/Skill.tsx";
+var _jsxFileName = "/mnt/d/React/panhara_next/sections/Skill.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -2605,7 +2604,7 @@ const Skill = () => __jsx("div", {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /mnt/d/reactjs/panhara_next/pages/index.tsx */"./pages/index.tsx");
+module.exports = __webpack_require__(/*! /mnt/d/React/panhara_next/pages/index.tsx */"./pages/index.tsx");
 
 
 /***/ }),
