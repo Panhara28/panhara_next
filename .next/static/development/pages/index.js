@@ -28,7 +28,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/components/Collapse.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Collapse.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -126,7 +126,7 @@ function (_React$Component) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/React/panhara_next/components/Footer.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Footer.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -316,6 +316,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
+/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_8__);
 
 
 
@@ -323,8 +325,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/components/Header.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Header.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
 
 var Header =
 /*#__PURE__*/
@@ -376,36 +379,36 @@ function (_React$Component) {
           lineNumber: 23
         },
         __self: this
-      }, " ", __jsx("a", {
-        href: "",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, "Panhara.work", __jsx("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
-      }, "Chhouk Tit Panhara")), " "), __jsx("nav", {
-        id: "addo-main-menu",
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_8___default.a, {
+        href: "/",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 24
         },
         __self: this
-      }, __jsx("ul", {
+      }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 25
         },
         __self: this
+      }, "Panhara.work"))), __jsx("nav", {
+        id: "addo-main-menu",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 28
+        },
+        __self: this
+      }, __jsx("ul", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 29
+        },
+        __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 26
+          lineNumber: 30
         },
         __self: this
       }, __jsx("a", {
@@ -413,13 +416,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 27
+          lineNumber: 31
         },
         __self: this
       }, "About")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 35
         },
         __self: this
       }, __jsx("a", {
@@ -427,13 +430,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 36
         },
         __self: this
       }, "Skills")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 36
+          lineNumber: 40
         },
         __self: this
       }, __jsx("a", {
@@ -441,13 +444,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 41
         },
         __self: this
       }, "Team")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 41
+          lineNumber: 45
         },
         __self: this
       }, __jsx("a", {
@@ -455,13 +458,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 42
+          lineNumber: 46
         },
         __self: this
       }, "Services")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 50
         },
         __self: this
       }, __jsx("a", {
@@ -469,13 +472,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 51
         },
         __self: this
       }, "Portfolio")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 55
         },
         __self: this
       }, __jsx("a", {
@@ -483,13 +486,13 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 56
         },
         __self: this
       }, "News")), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 56
+          lineNumber: 60
         },
         __self: this
       }, __jsx("a", {
@@ -497,119 +500,119 @@ function (_React$Component) {
         onClick: this.collapse,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 57
+          lineNumber: 61
         },
         __self: this
       }, "Contact")))), __jsx("div", {
         className: "addo-footer",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 63
+          lineNumber: 67
         },
         __self: this
       }, __jsx("ul", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 64
+          lineNumber: 68
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         },
         __self: this
       }, __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         },
         __self: this
       }, __jsx("i", {
         className: "ti-facebook font-14px white-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 65
+          lineNumber: 69
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 70
         },
         __self: this
       }, __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 70
         },
         __self: this
       }, __jsx("i", {
         className: "ti-twitter-alt font-14px white-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 66
+          lineNumber: 70
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 71
         },
         __self: this
       }, __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 71
         },
         __self: this
       }, __jsx("i", {
         className: "ti-instagram font-14px white-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 67
+          lineNumber: 71
         },
         __self: this
       }))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 72
         },
         __self: this
       }, __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 72
         },
         __self: this
       }, __jsx("i", {
         className: "ti-linkedin font-14px white-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 68
+          lineNumber: 72
         },
         __self: this
       })))), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 74
         },
         __self: this
       }, __jsx("small", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 74
         },
         __self: this
       }, "\xA9 2020 Panhara.work by ", __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 70
+          lineNumber: 74
         },
         __self: this
       }, "Chhouk Tit Panhara"))))));
@@ -653,7 +656,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/components/Layout.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/components/Layout.tsx";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_10___default.a.createElement;
 
 
@@ -16490,10 +16493,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2FReact%2Fpanhara_next%2Fpages%2Findex.tsx!./":
-/*!******************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2FReact%2Fpanhara_next%2Fpages%2Findex.tsx ***!
-  \******************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FKhmerload%2FDocuments%2Fprojects%2Fpanhara_next%2Fpages%2Findex.tsx!./":
+/*!*****************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FKhmerload%2FDocuments%2Fprojects%2Fpanhara_next%2Fpages%2Findex.tsx ***!
+  \*****************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -23678,7 +23681,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _functions_multipleQuery__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../functions/multipleQuery */ "./functions/multipleQuery.ts");
 
 
-var _jsxFileName = "/mnt/d/React/panhara_next/pages/index.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/pages/index.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement;
 
@@ -23787,7 +23790,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../styles/about.scss */ "./styles/about.scss");
 /* harmony import */ var _styles_about_scss__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_styles_about_scss__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/About.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/About.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24089,7 +24092,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Blog.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Blog.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24208,7 +24211,7 @@ var Blog = function Blog(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Contact.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Contact.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24471,7 +24474,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _Blog__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./Blog */ "./sections/Blog.tsx");
 /* harmony import */ var _Contact__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ./Contact */ "./sections/Contact.tsx");
 
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/MainSection.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/MainSection.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement;
 
@@ -24669,7 +24672,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Portfolioes.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Portfolioes.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24757,7 +24760,7 @@ var Portfolioes = function Portfolioes(props) {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Reference.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Reference.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -24988,7 +24991,7 @@ var Reference = function Reference() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Service.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Service.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -25213,7 +25216,7 @@ var Service = function Service() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-var _jsxFileName = "/mnt/d/React/panhara_next/sections/Skill.tsx";
+var _jsxFileName = "/mnt/c/Users/Khmerload/Documents/projects/panhara_next/sections/Skill.tsx";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
@@ -25403,14 +25406,14 @@ var Skill = function Skill() {
 
 /***/ }),
 
-/***/ 1:
-/*!**********************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fd%2FReact%2Fpanhara_next%2Fpages%2Findex.tsx ***!
-  \**********************************************************************************************************************/
+/***/ 3:
+/*!*********************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FKhmerload%2FDocuments%2Fprojects%2Fpanhara_next%2Fpages%2Findex.tsx ***!
+  \*********************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fd%2FReact%2Fpanhara_next%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fd%2FReact%2Fpanhara_next%2Fpages%2Findex.tsx!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FKhmerload%2FDocuments%2Fprojects%2Fpanhara_next%2Fpages%2Findex.tsx! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2F&absolutePagePath=%2Fmnt%2Fc%2FUsers%2FKhmerload%2FDocuments%2Fprojects%2Fpanhara_next%2Fpages%2Findex.tsx!./");
 
 
 /***/ }),
@@ -25426,5 +25429,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=index.js.map

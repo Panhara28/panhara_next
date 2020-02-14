@@ -1,5 +1,5 @@
-import { NavBarLink } from "./NavBarLink";
 import React from "react";
+import Link from "next/link";
 
 type Props = {
   active: boolean;
@@ -20,7 +20,11 @@ export class Header extends React.Component<Props> {
     return (
       <div>
         <aside id="addo-aside">
-          <div id="addo-logo"> <a href="">Panhara.work<span>Chhouk Tit Panhara</span></a> </div>
+          <div id="addo-logo"> 
+            <Link href="/">
+              <a>Panhara.work</a> 
+            </Link>
+          </div>
           <nav id="addo-main-menu">
             <ul>
               <li>
