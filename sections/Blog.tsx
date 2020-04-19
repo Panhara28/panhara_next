@@ -13,7 +13,7 @@ const Blog = () => (
               <a href="post.html" className="blog-img"><img src="images/blog/blog-05.jpg" className="img-fluid"
                 alt="" /></a>
               <div className="desc"> <span>in <b><a href="#">LIFESTYLE</a></b></span>
-                <h3><a href="post.html">Responsive Desing</a></h3>
+                <h3><a href="post.html">Responsive Desing 1</a></h3>
                 <p>Fusce suscipit, ante a hendrerit ullamcorper, risus nisl cursus purus, sit
                   amet viverra ante nulla vel justo. Morbi justo erat, posuere vel libero non,
                     bibendum convallis enim.</p>
