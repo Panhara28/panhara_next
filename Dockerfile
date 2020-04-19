@@ -2,7 +2,7 @@
 FROM node:8
 
 # Setting working directory. All the path will be relative to WORKDIR
-WORKDIR /usr/src/app
+# WORKDIR /usr/src/app
 
 # Installing dependencies
 COPY package*.json ./
