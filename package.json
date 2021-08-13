@@ -21,7 +21,7 @@
     "bootstrap-next": "^1.0.5",
     "bootstrap-sass": "^3.4.1",
     "jquery": "^3.4.1",
-    "next": "^9.1.6",
+    "next": "^11.1.0",
     "node-sass": "^4.13.0",
     "preact": "^10.2.1",
     "preact-ssr-prepass": "^1.0.0",
